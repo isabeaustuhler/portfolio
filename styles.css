@@ -188,7 +188,7 @@ ul.dokumentation li a:focus {
 	margin-bottom: 50px;
 }
 #uebermich #zeitstrahl dl .schule {
-	background: url(Bilder/braunerPunkt.png) 49.84% top no-repeat;
+	background: url(braunerPunkt.png) 49.84% top no-repeat;
 	padding-right: 53%;
 	text-align: right;
 }
@@ -206,7 +206,7 @@ ul.dokumentation li a:focus {
 	text-decoration: underline;
 }
 #uebermich #zeitstrahl dl .arbeit {
-	background: url(Bilder/gruenerPunkt.png) 49.84% top no-repeat;
+	background: url(gruenerPunkt.png) 49.84% top no-repeat;
 	padding-left: 53%;
 	text-align: left;
 }
