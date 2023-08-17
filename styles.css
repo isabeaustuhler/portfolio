@@ -90,7 +90,7 @@ ul.navigation li a {
 }
 ul.navigation li a:hover,
 ul.navigation li a:focus {
-	color: #BFA58E; /*farbe für hover von navi*/
+	color: #BFA58E; /*farbe fÃ¼r hover von navi*/
 }
 .abschnitt {
 	clear: both;
@@ -114,7 +114,7 @@ ul.dokumentation li a {
 }
 ul.dokumentation li a:hover,
 ul.dokumentation li a:focus {
-	color: #a8804d; /*farbe für hover von navi*/
+	color: #a8804d; /*farbe fÃ¼r hover von navi*/
 }
 .unterschrift {
 	font-weight: 100;
@@ -126,7 +126,7 @@ ul.dokumentation li a:focus {
 
 
 
-/*ÜBER MICH*/
+/*ÃœBER MICH*/
 #uebermich .inhaltsbereich h2 {
 	padding: 0 -10%;
 }
@@ -167,7 +167,7 @@ ul.dokumentation li a:focus {
 	padding: 150px 0;
 }
 #uebermich #lebensbaum {
-	background: url(Bilder/baum0.png) bottom center no-repeat;
+	background: url(baum0.png) bottom center no-repeat;
 	height: 496px;
 	width: 242px;
 	position: fixed;
@@ -234,7 +234,7 @@ ul.dokumentation li a:focus {
 	font-weight: 500;
 	padding-top: 20px;
 }	
-/*ÜBER MICH*/
+/*ÃœBER MICH*/
 
 /*ZEICHNUNGEN*/
 #zeichnungen .lightbox.preview {
@@ -596,7 +596,7 @@ ul.dokumentation li a:focus {
 	
 	
 
-/*CSS-ANGABEN FÜR ZWISCHENGRÖSSE*/
+/*CSS-ANGABEN FÃœR ZWISCHENGRÃ–SSE*/
 @media (max-width: 860px) {
 	#uebermich .abschnitt.motivation {
 		position: relative;
@@ -604,7 +604,7 @@ ul.dokumentation li a:focus {
 	}
 }
 
-/*CSS-ANGABEN FÜR SMARTPHONE*/
+/*CSS-ANGABEN FÃœR SMARTPHONE*/
 @media only screen
 and (max-device-width: 520px)
 and (orientation: portrait)  {
@@ -630,7 +630,7 @@ and (orientation: portrait)  {
 	}
 	/*STARTSEITE*/
 	
-	/*ÜBER MICH*/
+	/*ÃœBER MICH*/
 	#uebermich .abschnitt.motivation .strukturbox.rechts {
 		position: relative;
 		top: auto;
@@ -658,9 +658,9 @@ and (orientation: portrait)  {
 	.continued h3 {
 		text-align: left;
 	}
-	/*ÜBER MICH*/
+	/*ÃœBER MICH*/
 }
-/*CSS-ANGABEN FÜR SMARTPHONE*/
+/*CSS-ANGABEN FÃœR SMARTPHONE*/
 
 /*STARTSEITE*/
 #startseite #kopfbereich {
@@ -681,7 +681,7 @@ and (orientation: portrait)  {
 }
 #startseite #inhaltsbereich ul.navigation li a:hover,
 #startseite #inhaltsbereich ul.navigation li a:focus {
-	color: #a8804d; /*farbe für hover von navi*/
+	color: #a8804d; /*farbe fÃ¼r hover von navi*/
 }
 #startseite #inhaltsbereich ul.navigation li:first-child {
 	text-align: left;
