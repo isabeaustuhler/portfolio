@@ -72,7 +72,7 @@ ul {
   margin: 0;
   position: absolute;
   left: 1%;
-  white-space: nowrap; /* Verhindert Zeilenumbruch für zu lange Überschriften */
+  white-space: nowrap; /* Verhindert Zeilenumbruch fÃ¼r zu lange Ãœberschriften */
 }
 .kopfrechts {
 	position: absolute;
@@ -93,7 +93,7 @@ ul.navigation li a {
 }
 ul.navigation li a:hover,
 ul.navigation li a:focus {
-	color: #BFA58E; /*farbe für hover von navi*/
+	color: #BFA58E; /*farbe fÃ¼r hover von navi*/
 }
 .navigation {
   list-style: none;
@@ -159,7 +159,7 @@ ul.dokumentation li a {
 }
 ul.dokumentation li a:hover,
 ul.dokumentation li a:focus {
-	color: #a8804d; /*farbe für hover von navi*/
+	color: #a8804d; /*farbe fÃ¼r hover von navi*/
 }
 .unterschrift {
 	font-weight: 100;
@@ -171,7 +171,7 @@ ul.dokumentation li a:focus {
 
 
 
-/*ÜBER MICH*/
+/*ÃœBER MICH*/
 #uebermich .de-link {
 	font-size: 13px;
 }
@@ -219,7 +219,7 @@ ul.dokumentation li a:focus {
 }
 #uebermich ul.navigation li a:hover,
 #uebermich ul.navigation li a:focus {
-	color: #BFA58E; /*farbe für hover von navi*/
+	color: #BFA58E; /*farbe fÃ¼r hover von navi*/
 }
 .trennlinie {
 	border-bottom: 2px solid #FDF0E3;
@@ -331,7 +331,7 @@ ul.dokumentation li a:focus {
 	font-weight: 500;
 	padding-top: 20px;
 }	
-/*ÜBER MICH*/
+/*ÃœBER MICH*/
 
 /*ZEICHNUNGEN*/
 #zeichnungen .de-link {
@@ -417,11 +417,11 @@ ul.dokumentation li a:focus {
     transition: transform 0.3s;
     margin: 0;
     border-radius: 10px; /* Randabfallende Ecken */
-    overflow: hidden; /* Überlauf ausblenden */
+    overflow: hidden; /* Ãœberlauf ausblenden */
 }
 #zeichnungen #inhaltsbereich a:hover img.example-image,
 #zeichnungen #inhaltsbereich a:focus img.example-image {
-    transform: scale(1.02); /* Bild beim Hover/Focus vergrößern */
+    transform: scale(1.02); /* Bild beim Hover/Focus vergrÃ¶ÃŸern */
     transition: transform 0.3s;
 }
 /*ZEICHNUNGEN*/
@@ -497,7 +497,7 @@ ul.dokumentation li a:focus {
 }
 #fotografie #inhaltsbereich a:hover img.example-image,
 #fotografie #inhaltsbereich a:focus img.example-image {
-    transform: scale(1.02); /* Bild beim Hover/Focus vergrößern */
+    transform: scale(1.02); /* Bild beim Hover/Focus vergrÃ¶ÃŸern */
     transition: transform 0.3s;
 }
 
@@ -536,7 +536,7 @@ ul.dokumentation li a:focus {
 #projekte #inhaltsbereich a {
     flex: 0 0 calc(33.33% - 20px); /* Dreimalige Aufteilung mit 20px Abstand dazwischen */
     margin: 10px;
-	margin-top: 10px; /* Größerer Abstand zwischen den Bildern */
+	margin-top: 10px; /* GrÃ¶ÃŸerer Abstand zwischen den Bildern */
     position: relative;
 }
 #projekte #inhaltsbereich img.example-image {
@@ -548,56 +548,56 @@ ul.dokumentation li a:focus {
 }
 #projekte #inhaltsbereich a:hover img.example-image,
 #projekte #inhaltsbereich a:focus img.example-image {
-    transform: scale(1.05); /* Bild beim Hover/Focus vergrößern */
+    transform: scale(1.05); /* Bild beim Hover/Focus vergrÃ¶ÃŸern */
     transition: transform 0.3s;
 }
 #projekte #inhaltsbereich a.refresh:hover img.example-image,
 #projekte #inhaltsbereich a.refresh:focus img.example-image {
-	content: url('Bilder/klein-refresh-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+	content: url('Bilder/klein-refresh-h.jpg'); /* Ã„ndere das Hintergrundbild beim Hover/Fokus */
 }
 #projekte #inhaltsbereich a.flower:hover img.example-image,
 #projekte #inhaltsbereich a.flower:focus img.example-image {
-	content: url('Bilder/klein-flower-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+	content: url('Bilder/klein-flower-h.jpg'); /* Ã„ndere das Hintergrundbild beim Hover/Fokus */
 }
 #projekte #inhaltsbereich a.twinola:hover img.example-image,
 #projekte #inhaltsbereich a.twinola:focus img.example-image {
-	content: url('Bilder/klein-twinola-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+	content: url('Bilder/klein-twinola-h.jpg'); /* Ã„ndere das Hintergrundbild beim Hover/Fokus */
 }
 #projekte #inhaltsbereich a.ipenela:hover img.example-image,
 #projekte #inhaltsbereich a.ipenela:focus img.example-image {
-	content: url('Bilder/klein-ipenela-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+	content: url('Bilder/klein-ipenela-h.jpg'); /* Ã„ndere das Hintergrundbild beim Hover/Fokus */
 }
 #projekte #inhaltsbereich a.rotation:hover img.example-image,
 #projekte #inhaltsbereich a.rotation:focus img.example-image {
-	content: url('Bilder/klein-rotation-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+	content: url('Bilder/klein-rotation-h.jpg'); /* Ã„ndere das Hintergrundbild beim Hover/Fokus */
 }
 #projekte #inhaltsbereich a.projekte:hover img.example-image,
 #projekte #inhaltsbereich a.projekte:focus img.example-image {
-	content: url('Bilder/klein-projekte-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+	content: url('Bilder/klein-projekte-h.jpg'); /* Ã„ndere das Hintergrundbild beim Hover/Fokus */
 }
 #projekte #inhaltsbereich a.geschirr:hover img.example-image,
 #projekte #inhaltsbereich a.geschirr:focus img.example-image {
-	content: url('Bilder/klein-geschirr-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+	content: url('Bilder/klein-geschirr-h.jpg'); /* Ã„ndere das Hintergrundbild beim Hover/Fokus */
 }
 #projekte #inhaltsbereich a.trolley:hover img.example-image,
 #projekte #inhaltsbereich a.trolley:focus img.example-image {
-	content: url('Bilder/klein-trolley-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+	content: url('Bilder/klein-trolley-h.jpg'); /* Ã„ndere das Hintergrundbild beim Hover/Fokus */
 }
 #projekte #inhaltsbereich a.schnuffel:hover img.example-image,
 #projekte #inhaltsbereich a.schnuffel:focus img.example-image {
-	content: url('Bilder/klein-schnuffel-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+	content: url('Bilder/klein-schnuffel-h.jpg'); /* Ã„ndere das Hintergrundbild beim Hover/Fokus */
 }
 #projekte #inhaltsbereich a.karten:hover img.example-image,
 #projekte #inhaltsbereich a.karten:focus img.example-image {
-	content: url('Bilder/klein-karten-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+	content: url('Bilder/klein-karten-h.jpg'); /* Ã„ndere das Hintergrundbild beim Hover/Fokus */
 }
 #projekte #inhaltsbereich a.kiste:hover img.example-image,
 #projekte #inhaltsbereich a.kiste:focus img.example-image {
-	content: url('Bilder/klein-kiste-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+	content: url('Bilder/klein-kiste-h.jpg'); /* Ã„ndere das Hintergrundbild beim Hover/Fokus */
 }
 #projekte #inhaltsbereich a.fahrzeug:hover img.example-image,
 #projekte #inhaltsbereich a.fahrzeug:focus img.example-image {
-	content: url('Bilder/klein-fahrzeug-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+	content: url('Bilder/klein-fahrzeug-h.jpg'); /* Ã„ndere das Hintergrundbild beim Hover/Fokus */
 }
 #projekte .abschnitt.beruflich {
 	margin: 150px 0;
@@ -648,25 +648,25 @@ ul.dokumentation li a:focus {
 #refresh .box {
     display: flex;
     justify-content: space-between; /* Platz zwischen den inneren Elementen verteilen */
-    flex: 1; /* Flexibles Wachstum, um den verfügbaren Platz auszufüllen */
+    flex: 1; /* Flexibles Wachstum, um den verfÃ¼gbaren Platz auszufÃ¼llen */
 	margin-top: 100px;
 }
 #refresh .box2 {
 	margin-top: 100px;
 }
 #refresh .links  {
-    flex: 1; /* Flexibles Wachstum, um den verfügbaren Platz auszufüllen */
+    flex: 1; /* Flexibles Wachstum, um den verfÃ¼gbaren Platz auszufÃ¼llen */
 }
 #refresh .links p {
 	margin-right: 30%;
 }
 #refresh .rechts {
-    flex: 1; /* Flexibles Wachstum, um den verfügbaren Platz auszufüllen */
+    flex: 1; /* Flexibles Wachstum, um den verfÃ¼gbaren Platz auszufÃ¼llen */
     display: flex;
     justify-content: flex-end; /* Das Bild rechts ausrichten */
 }
 #refresh .link2 {
-    flex: 1; /* Flexibles Wachstum, um den verfügbaren Platz auszufüllen */
+    flex: 1; /* Flexibles Wachstum, um den verfÃ¼gbaren Platz auszufÃ¼llen */
     display: flex;
     justify-content: flex-end; /* Das Bild rechts ausrichten */
 }
@@ -677,8 +677,8 @@ ul.dokumentation li a:focus {
 	margin-top: -200px;
 }
 #refresh .qr {
-    max-height: flex; /* Maximale Höhe auf 50% der Bildschirmhöhe begrenzen */
-    max-width: 70%; /* Maximale Breite auf 100% des verfügbaren Platzes begrenzen */
+    max-height: flex; /* Maximale HÃ¶he auf 50% der BildschirmhÃ¶he begrenzen */
+    max-width: 70%; /* Maximale Breite auf 100% des verfÃ¼gbaren Platzes begrenzen */
 	margin-top: -80px;
 }
 #refresh .flaschenpost {
@@ -700,10 +700,10 @@ ul.dokumentation li a:focus {
     position: relative;
 }
 #refresh #inhaltsbereich .abschnitt.prozess img:first-of-type {
-    margin-left: 0; /* Keine Margin auf der linken Seite für das erste Bild */
+    margin-left: 0; /* Keine Margin auf der linken Seite fÃ¼r das erste Bild */
 }
 #refresh #inhaltsbereich .abschnitt.prozess img:last-child {
-    margin-right: 0; /* Keine Margin auf der rechten Seite für das letzte Bild */
+    margin-right: 0; /* Keine Margin auf der rechten Seite fÃ¼r das letzte Bild */
 }
 /*REFRESH*/
 
@@ -729,11 +729,11 @@ ul.dokumentation li a:focus {
 }
 #flower .abschnitt .plakat,
 #flower .abschnitt .info {
-	width: 32.3%; /* Ca. 100% / 3 - Anpassen der Breite für drei Bilder in einer Reihe */
+	width: 32.3%; /* Ca. 100% / 3 - Anpassen der Breite fÃ¼r drei Bilder in einer Reihe */
 	height: auto;
 	flex: 0 0 calc(33.33% - 10px); /* Dreimalige Aufteilung mit 10px Abstand dazwischen */
 	margin: 5px; /* Anpassen des Abstands zwischen den Bildern */
-	margin-top: 10px; /* Größerer Abstand zwischen den Zeilen */
+	margin-top: 10px; /* GrÃ¶ÃŸerer Abstand zwischen den Zeilen */
 	position: relative;
 }
 #flower .abschnitt.f {
@@ -744,12 +744,12 @@ ul.dokumentation li a:focus {
 }
 #flower .abschnitt.f img {
     flex: 0 0 auto; /* Flex-Verhalten der Bilder festlegen */
-    max-height: 100%; /* Maximale Höhe auf 100% setzen */
+    max-height: 100%; /* Maximale HÃ¶he auf 100% setzen */
     margin-right: 20px; /* Abstand zwischen den Bildern */
 }
 #flower .abschnitt.f .frage {
     flex: 0 0 auto; /* Flex-Verhalten des Container-Divs festlegen */
-    max-height: 310px; /* Höhe des Container-Divs festlegen */
+    max-height: 310px; /* HÃ¶he des Container-Divs festlegen */
 }
 #flower .abschnitt.video {
     display: flex;
@@ -763,8 +763,8 @@ ul.dokumentation li a:focus {
 	margin-bottom: 20px;
 }
 #flower .play-button {
-	width: 100px; /* Ändern Sie die Größe nach Bedarf */
-	height: 100px; /* Ändern Sie die Größe nach Bedarf */
+	width: 100px; /* Ã„ndern Sie die GrÃ¶ÃŸe nach Bedarf */
+	height: 100px; /* Ã„ndern Sie die GrÃ¶ÃŸe nach Bedarf */
 	background-color: rgba(0, 0, 0, 0.5);
 	border-radius: 50%;
 	position: absolute;
@@ -792,9 +792,9 @@ ul.dokumentation li a:focus {
 }
 #flower .abschnitt .ergebnisse {
 	width: 18.4%; /* Ca. 100% / 5 - 4% Abstand */
-	flex: 0 0 calc(20% - 16px); /* Fünfmalige Aufteilung mit 16px Abstand dazwischen */
-	margin: 8px; /* Halb so viel Abstand wie der gewünschte Abstand (16px / 2) */
-	margin-top: 10px; /* Größerer Abstand zwischen den Zeilen */
+	flex: 0 0 calc(20% - 16px); /* FÃ¼nfmalige Aufteilung mit 16px Abstand dazwischen */
+	margin: 8px; /* Halb so viel Abstand wie der gewÃ¼nschte Abstand (16px / 2) */
+	margin-top: 10px; /* GrÃ¶ÃŸerer Abstand zwischen den Zeilen */
 	position: relative;
 }
 #flower .abschnitt.p {
@@ -806,21 +806,21 @@ ul.dokumentation li a:focus {
 }
 #flower .abschnitt.p .produkt {
     flex: 0 0 auto; /* Flex-Verhalten des Container-Divs festlegen */
-    max-height: 380px; /* Höhe des Container-Divs festlegen */
+    max-height: 380px; /* HÃ¶he des Container-Divs festlegen */
 }
 #flower .abschnitt .team {
-    width: 23%; /* Ca. 100% / 4 - Anpassen der Breite für vier Bilder in einer Reihe */
+    width: 23%; /* Ca. 100% / 4 - Anpassen der Breite fÃ¼r vier Bilder in einer Reihe */
     height: auto;
     flex: 0 0 calc(25% - 20px); /* Viermalige Aufteilung mit 20px Abstand dazwischen */
     margin: 10px; /* Anpassen des Abstands zwischen den Bildern */
-    margin-top: 10px; /* Größerer Abstand zwischen den Zeilen */
+    margin-top: 10px; /* GrÃ¶ÃŸerer Abstand zwischen den Zeilen */
     position: relative;
 }
 #flower .team-name {
     display: flex; /* Verwendet Flexbox, um die Namen in einer Reihe anzuzeigen */
 }
 #flower .team-name p {
-    flex: 1; /* Jeder Name nimmt 25% der verfügbaren Breite ein */
+    flex: 1; /* Jeder Name nimmt 25% der verfÃ¼gbaren Breite ein */
     text-align: left; /* Links ausrichten */
     margin-left: 9px; /* Kleiner Abstand zwischen den Namen */
 	margin-right: 10px;
@@ -841,7 +841,7 @@ ul.dokumentation li a:focus {
 	margin-top: 10px;
 }
 #flower .prozess1:first-child {
-    margin-right: 20px; /* Kein rechter Rand für das letzte Bild in der Reihe */
+    margin-right: 20px; /* Kein rechter Rand fÃ¼r das letzte Bild in der Reihe */
 }
 #flower .prozess2 {	
     width: calc(24.5% - 10px);
@@ -851,7 +851,7 @@ ul.dokumentation li a:focus {
 	margin-bottom: 200px;
 }
 #flower .prozess2:last-child {
-    margin-right: 0; /* Kein rechter Rand für das letzte Bild in der Reihe */
+    margin-right: 0; /* Kein rechter Rand fÃ¼r das letzte Bild in der Reihe */
 }
 /*FLOWERPOWER*/
 
@@ -1218,11 +1218,11 @@ ul.dokumentation li a:focus {
 	margin-bottom: 110px;
 }
 #trolley .konstruktion {
-	width: 18.9%; /* Ca. 100% / 5 - Anpassen der Breite für fünf Bilder in einer Reihe */
+	width: 18.9%; /* Ca. 100% / 5 - Anpassen der Breite fÃ¼r fÃ¼nf Bilder in einer Reihe */
 	height: auto;
-	flex: 0 0 calc(20% - 16px); /* Fünfmalige Aufteilung mit 16px Abstand dazwischen */
-	margin: 8px; /* Halb so viel Abstand wie der gewünschte Abstand (16px / 2) */
-	margin-top: 10px; /* Größerer Abstand zwischen den Zeilen */
+	flex: 0 0 calc(20% - 16px); /* FÃ¼nfmalige Aufteilung mit 16px Abstand dazwischen */
+	margin: 8px; /* Halb so viel Abstand wie der gewÃ¼nschte Abstand (16px / 2) */
+	margin-top: 10px; /* GrÃ¶ÃŸerer Abstand zwischen den Zeilen */
 	position: relative;
 }
 #trolley .konstruktion:first-child {
@@ -1470,7 +1470,7 @@ ul.dokumentation li a:focus {
 /*IMPRESSUM*/
 	
 /*ANGABEN ENGLISCH'/
-/*ÜBER MICH*/
+/*ÃœBER MICH*/
 #uebermich-en .de-link {
 	text-decoration: none;
 	font-size: 13px;
@@ -1518,7 +1518,7 @@ ul.dokumentation li a:focus {
 }
 #uebermich-en ul.navigation li a:hover,
 #uebermich-en ul.navigation li a:focus {
-	color: #BFA58E; /*farbe für hover von navi*/
+	color: #BFA58E; /*farbe fÃ¼r hover von navi*/
 }
 .trennlinie {
 	border-bottom: 2px solid #FDF0E3;
@@ -1630,7 +1630,7 @@ ul.dokumentation li a:focus {
 	font-weight: 500;
 	padding-top: 20px;
 }	
-/*ÜBER MICH*/
+/*ÃœBER MICH*/
 
 /*ZEICHNUNGEN*/
 #zeichnungen-en .de-link {
@@ -1716,11 +1716,11 @@ ul.dokumentation li a:focus {
     transition: transform 0.3s;
     margin: 0;
     border-radius: 10px; /* Randabfallende Ecken */
-    overflow: hidden; /* Überlauf ausblenden */
+    overflow: hidden; /* Ãœberlauf ausblenden */
 }
 #zeichnungen-en #inhaltsbereich a:hover img.example-image,
 #zeichnungen-en #inhaltsbereich a:focus img.example-image {
-    transform: scale(1.02); /* Bild beim Hover/Focus vergrößern */
+    transform: scale(1.02); /* Bild beim Hover/Focus vergrÃ¶ÃŸern */
     transition: transform 0.3s;
 }
 /*ZEICHNUNGEN*/
@@ -1784,7 +1784,7 @@ ul.dokumentation li a:focus {
 }
 #fotografie-en #inhaltsbereich a:hover img.example-image,
 #fotografie-en #inhaltsbereich a:focus img.example-image {
-    transform: scale(1.02); /* Bild beim Hover/Focus vergrößern */
+    transform: scale(1.02); /* Bild beim Hover/Focus vergrÃ¶ÃŸern */
     transition: transform 0.3s;
 }
 
@@ -1823,7 +1823,7 @@ ul.dokumentation li a:focus {
 #projekte-en #inhaltsbereich a {
     flex: 0 0 calc(33.33% - 20px); /* Dreimalige Aufteilung mit 20px Abstand dazwischen */
     margin: 10px;
-	margin-top: 10px; /* Größerer Abstand zwischen den Bildern */
+	margin-top: 10px; /* GrÃ¶ÃŸerer Abstand zwischen den Bildern */
     position: relative;
 }
 #projekte-en #inhaltsbereich img.example-image {
@@ -1835,56 +1835,56 @@ ul.dokumentation li a:focus {
 }
 #projekte-en #inhaltsbereich a:hover img.example-image,
 #projekte-en #inhaltsbereich a:focus img.example-image {
-    transform: scale(1.05); /* Bild beim Hover/Focus vergrößern */
+    transform: scale(1.05); /* Bild beim Hover/Focus vergrÃ¶ÃŸern */
     transition: transform 0.3s;
 }
 #projekte-en #inhaltsbereich a.refresh:hover img.example-image,
 #projekte-en #inhaltsbereich a.refresh:focus img.example-image {
-	content: url('Bilder/klein-refresh-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+	content: url('Bilder/klein-refresh-h.jpg'); /* Ã„ndere das Hintergrundbild beim Hover/Fokus */
 }
 #projekte-en #inhaltsbereich a.flower:hover img.example-image,
 #projekte-en #inhaltsbereich a.flower:focus img.example-image {
-	content: url('Bilder/klein-flower-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+	content: url('Bilder/klein-flower-h.jpg'); /* Ã„ndere das Hintergrundbild beim Hover/Fokus */
 }
 #projekte-en #inhaltsbereich a.twinola:hover img.example-image,
 #projekte-en #inhaltsbereich a.twinola:focus img.example-image {
-	content: url('Bilder/klein-twinola-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+	content: url('Bilder/klein-twinola-h.jpg'); /* Ã„ndere das Hintergrundbild beim Hover/Fokus */
 }
 #projekte-en #inhaltsbereich a.ipenela:hover img.example-image,
 #projekte-en #inhaltsbereich a.ipenela:focus img.example-image {
-	content: url('Bilder/klein-ipenela-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+	content: url('Bilder/klein-ipenela-h.jpg'); /* Ã„ndere das Hintergrundbild beim Hover/Fokus */
 }
 #projekte-en #inhaltsbereich a.rotation:hover img.example-image,
 #projekte-en #inhaltsbereich a.rotation:focus img.example-image {
-	content: url('Bilder/klein-rotation-h-en.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+	content: url('Bilder/klein-rotation-h-en.jpg'); /* Ã„ndere das Hintergrundbild beim Hover/Fokus */
 }
 #projekte-en #inhaltsbereich a.projekte:hover img.example-image,
 #projekte-en #inhaltsbereich a.projekte:focus img.example-image {
-	content: url('Bilder/klein-projekte-h-en.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+	content: url('Bilder/klein-projekte-h-en.jpg'); /* Ã„ndere das Hintergrundbild beim Hover/Fokus */
 }
 #projekte-en #inhaltsbereich a.geschirr:hover img.example-image,
 #projekte-en #inhaltsbereich a.geschirr:focus img.example-image {
-	content: url('Bilder/klein-geschirr-h-en.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+	content: url('Bilder/klein-geschirr-h-en.jpg'); /* Ã„ndere das Hintergrundbild beim Hover/Fokus */
 }
 #projekte-en #inhaltsbereich a.trolley:hover img.example-image,
 #projekte-en #inhaltsbereich a.trolley:focus img.example-image {
-	content: url('Bilder/klein-trolley-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+	content: url('Bilder/klein-trolley-h.jpg'); /* Ã„ndere das Hintergrundbild beim Hover/Fokus */
 }
 #projekte-en #inhaltsbereich a.schnuffel:hover img.example-image,
 #projekte-en #inhaltsbereich a.schnuffel:focus img.example-image {
-	content: url('Bilder/klein-schnuffel-h-en.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+	content: url('Bilder/klein-schnuffel-h-en.jpg'); /* Ã„ndere das Hintergrundbild beim Hover/Fokus */
 }
 #projekte-en #inhaltsbereich a.karten:hover img.example-image,
 #projekte-en #inhaltsbereich a.karten:focus img.example-image {
-	content: url('Bilder/klein-karten-h-en.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+	content: url('Bilder/klein-karten-h-en.jpg'); /* Ã„ndere das Hintergrundbild beim Hover/Fokus */
 }
 #projekte-en #inhaltsbereich a.kiste:hover img.example-image,
 #projekte-en #inhaltsbereich a.kiste:focus img.example-image {
-	content: url('Bilder/klein-kiste-h-en.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+	content: url('Bilder/klein-kiste-h-en.jpg'); /* Ã„ndere das Hintergrundbild beim Hover/Fokus */
 }
 #projekte-en #inhaltsbereich a.fahrzeug:hover img.example-image,
 #projekte-en #inhaltsbereich a.fahrzeug:focus img.example-image {
-	content: url('Bilder/klein-fahrzeug-h-en.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+	content: url('Bilder/klein-fahrzeug-h-en.jpg'); /* Ã„ndere das Hintergrundbild beim Hover/Fokus */
 }
 #projekte-en .abschnitt.beruflich {
 	margin: 150px 0;
@@ -1947,25 +1947,25 @@ ul.dokumentation li a:focus {
 #refresh-en .box {
     display: flex;
     justify-content: space-between; /* Platz zwischen den inneren Elementen verteilen */
-    flex: 1; /* Flexibles Wachstum, um den verfügbaren Platz auszufüllen */
+    flex: 1; /* Flexibles Wachstum, um den verfÃ¼gbaren Platz auszufÃ¼llen */
 	margin-top: 100px;
 }
 #refresh-en .box2 {
 	margin-top: 100px;
 }
 #refresh-en .links  {
-    flex: 1; /* Flexibles Wachstum, um den verfügbaren Platz auszufüllen */
+    flex: 1; /* Flexibles Wachstum, um den verfÃ¼gbaren Platz auszufÃ¼llen */
 }
 #refresh-en .links p {
 	margin-right: 30%;
 }
 #refresh-en .rechts {
-    flex: 1; /* Flexibles Wachstum, um den verfügbaren Platz auszufüllen */
+    flex: 1; /* Flexibles Wachstum, um den verfÃ¼gbaren Platz auszufÃ¼llen */
     display: flex;
     justify-content: flex-end; /* Das Bild rechts ausrichten */
 }
 #refresh-en .link2 {
-    flex: 1; /* Flexibles Wachstum, um den verfügbaren Platz auszufüllen */
+    flex: 1; /* Flexibles Wachstum, um den verfÃ¼gbaren Platz auszufÃ¼llen */
     display: flex;
     justify-content: flex-end; /* Das Bild rechts ausrichten */
 }
@@ -1976,8 +1976,8 @@ ul.dokumentation li a:focus {
 	margin-top: -200px;
 }
 #refresh-en .qr {
-    max-height: flex; /* Maximale Höhe auf 50% der Bildschirmhöhe begrenzen */
-    max-width: 70%; /* Maximale Breite auf 100% des verfügbaren Platzes begrenzen */
+    max-height: flex; /* Maximale HÃ¶he auf 50% der BildschirmhÃ¶he begrenzen */
+    max-width: 70%; /* Maximale Breite auf 100% des verfÃ¼gbaren Platzes begrenzen */
 	margin-top: -80px;
 }
 #refresh-en .flaschenpost {
@@ -1999,10 +1999,10 @@ ul.dokumentation li a:focus {
     position: relative;
 }
 #refresh-en #inhaltsbereich .abschnitt.prozess img:first-of-type {
-    margin-left: 0; /* Keine Margin auf der linken Seite für das erste Bild */
+    margin-left: 0; /* Keine Margin auf der linken Seite fÃ¼r das erste Bild */
 }
 #refresh-en #inhaltsbereich .abschnitt.prozess img:last-child {
-    margin-right: 0; /* Keine Margin auf der rechten Seite für das letzte Bild */
+    margin-right: 0; /* Keine Margin auf der rechten Seite fÃ¼r das letzte Bild */
 }
 /*REFRESH*/
 
@@ -2019,9 +2019,6 @@ ul.dokumentation li a:focus {
 #flower-en .de-link:focus {
     color: #67472F;
 }
-#flower-en #kopfbereich2 {
-	margin-bottom: -150px;
-} 
 #flower-en .abschnitt {
 	padding: 50px 0;
 	margin-bottom: 150px;
@@ -2031,11 +2028,11 @@ ul.dokumentation li a:focus {
 }
 #flower-en .abschnitt .plakat,
 #flower-en .abschnitt .info {
-	width: 32.3%; /* Ca. 100% / 3 - Anpassen der Breite für drei Bilder in einer Reihe */
+	width: 32.3%; /* Ca. 100% / 3 - Anpassen der Breite fÃ¼r drei Bilder in einer Reihe */
 	height: auto;
 	flex: 0 0 calc(33.33% - 10px); /* Dreimalige Aufteilung mit 10px Abstand dazwischen */
 	margin: 5px; /* Anpassen des Abstands zwischen den Bildern */
-	margin-top: 10px; /* Größerer Abstand zwischen den Zeilen */
+	margin-top: 10px; /* GrÃ¶ÃŸerer Abstand zwischen den Zeilen */
 	position: relative;
 }
 #flower-en .abschnitt.f {
@@ -2046,12 +2043,12 @@ ul.dokumentation li a:focus {
 }
 #flower-en .abschnitt.f img {
     flex: 0 0 auto; /* Flex-Verhalten der Bilder festlegen */
-    max-height: 100%; /* Maximale Höhe auf 100% setzen */
+    max-height: 100%; /* Maximale HÃ¶he auf 100% setzen */
     margin-right: 20px; /* Abstand zwischen den Bildern */
 }
 #flower-en .abschnitt.f .frage {
     flex: 0 0 auto; /* Flex-Verhalten des Container-Divs festlegen */
-    max-height: 310px; /* Höhe des Container-Divs festlegen */
+    max-height: 310px; /* HÃ¶he des Container-Divs festlegen */
 }
 #flower-en .abschnitt.video {
     display: flex;
@@ -2065,8 +2062,8 @@ ul.dokumentation li a:focus {
 	margin-bottom: 20px;
 }
 #flower-en .play-button {
-	width: 100px; /* Ändern Sie die Größe nach Bedarf */
-	height: 100px; /* Ändern Sie die Größe nach Bedarf */
+	width: 100px; /* Ã„ndern Sie die GrÃ¶ÃŸe nach Bedarf */
+	height: 100px; /* Ã„ndern Sie die GrÃ¶ÃŸe nach Bedarf */
 	background-color: rgba(0, 0, 0, 0.5);
 	border-radius: 50%;
 	position: absolute;
@@ -2094,9 +2091,9 @@ ul.dokumentation li a:focus {
 }
 #flower-en .abschnitt .ergebnisse {
 	width: 18.4%; /* Ca. 100% / 5 - 4% Abstand */
-	flex: 0 0 calc(20% - 16px); /* Fünfmalige Aufteilung mit 16px Abstand dazwischen */
-	margin: 8px; /* Halb so viel Abstand wie der gewünschte Abstand (16px / 2) */
-	margin-top: 10px; /* Größerer Abstand zwischen den Zeilen */
+	flex: 0 0 calc(20% - 16px); /* FÃ¼nfmalige Aufteilung mit 16px Abstand dazwischen */
+	margin: 8px; /* Halb so viel Abstand wie der gewÃ¼nschte Abstand (16px / 2) */
+	margin-top: 10px; /* GrÃ¶ÃŸerer Abstand zwischen den Zeilen */
 	position: relative;
 }
 #flower-en .abschnitt.p {
@@ -2108,21 +2105,21 @@ ul.dokumentation li a:focus {
 }
 #flower-en .abschnitt.p .produkt {
     flex: 0 0 auto; /* Flex-Verhalten des Container-Divs festlegen */
-    max-height: 380px; /* Höhe des Container-Divs festlegen */
+    max-height: 380px; /* HÃ¶he des Container-Divs festlegen */
 }
 #flower-en .abschnitt .team {
-    width: 23%; /* Ca. 100% / 4 - Anpassen der Breite für vier Bilder in einer Reihe */
+    width: 23%; /* Ca. 100% / 4 - Anpassen der Breite fÃ¼r vier Bilder in einer Reihe */
     height: auto;
     flex: 0 0 calc(25% - 20px); /* Viermalige Aufteilung mit 20px Abstand dazwischen */
     margin: 10px; /* Anpassen des Abstands zwischen den Bildern */
-    margin-top: 10px; /* Größerer Abstand zwischen den Zeilen */
+    margin-top: 10px; /* GrÃ¶ÃŸerer Abstand zwischen den Zeilen */
     position: relative;
 }
 #flower-en .team-name {
     display: flex; /* Verwendet Flexbox, um die Namen in einer Reihe anzuzeigen */
 }
 #flower-en .team-name p {
-    flex: 1; /* Jeder Name nimmt 25% der verfügbaren Breite ein */
+    flex: 1; /* Jeder Name nimmt 25% der verfÃ¼gbaren Breite ein */
     text-align: left; /* Links ausrichten */
     margin-left: 9px; /* Kleiner Abstand zwischen den Namen */
 	margin-right: 10px;
@@ -2143,7 +2140,7 @@ ul.dokumentation li a:focus {
 	margin-top: 10px;
 }
 #flower-en .prozess1:first-child {
-    margin-right: 20px; /* Kein rechter Rand für das letzte Bild in der Reihe */
+    margin-right: 20px; /* Kein rechter Rand fÃ¼r das letzte Bild in der Reihe */
 }
 #flower-en .prozess2 {	
     width: calc(24.5% - 10px);
@@ -2153,7 +2150,7 @@ ul.dokumentation li a:focus {
 	margin-bottom: 200px;
 }
 #flower-en .prozess2:last-child {
-    margin-right: 0; /* Kein rechter Rand für das letzte Bild in der Reihe */
+    margin-right: 0; /* Kein rechter Rand fÃ¼r das letzte Bild in der Reihe */
 }
 /*FLOWERPOWER*/
 
@@ -2520,11 +2517,11 @@ ul.dokumentation li a:focus {
 	margin-bottom: 110px;
 }
 #trolley-en .konstruktion {
-	width: 18.9%; /* Ca. 100% / 5 - Anpassen der Breite für fünf Bilder in einer Reihe */
+	width: 18.9%; /* Ca. 100% / 5 - Anpassen der Breite fÃ¼r fÃ¼nf Bilder in einer Reihe */
 	height: auto;
-	flex: 0 0 calc(20% - 16px); /* Fünfmalige Aufteilung mit 16px Abstand dazwischen */
-	margin: 8px; /* Halb so viel Abstand wie der gewünschte Abstand (16px / 2) */
-	margin-top: 10px; /* Größerer Abstand zwischen den Zeilen */
+	flex: 0 0 calc(20% - 16px); /* FÃ¼nfmalige Aufteilung mit 16px Abstand dazwischen */
+	margin: 8px; /* Halb so viel Abstand wie der gewÃ¼nschte Abstand (16px / 2) */
+	margin-top: 10px; /* GrÃ¶ÃŸerer Abstand zwischen den Zeilen */
 	position: relative;
 }
 #trolley-en .konstruktion:first-child {
@@ -2757,7 +2754,7 @@ ul.dokumentation li a:focus {
 
 
 
-/*CSS-ANGABEN FÜR ZWISCHENGRÖSSE*/
+/*CSS-ANGABEN FÃœR ZWISCHENGRÃ–SSE*/
 
 @media (max-width: 860px) {
 	#uebermich .abschnitt.motivation {
@@ -2766,7 +2763,7 @@ ul.dokumentation li a:focus {
 	}
 }
 
-/*CSS-ANGABEN FÜR SMARTPHONE*/
+/*CSS-ANGABEN FÃœR SMARTPHONE*/
 @media only screen
 and (max-device-width: 520px)
 and (orientation: portrait)  {
@@ -2792,7 +2789,7 @@ and (orientation: portrait)  {
 	}
 	/*STARTSEITE*/
 	
-	/*ÜBER MICH*/
+	/*ÃœBER MICH*/
 	#uebermich .abschnitt.motivation .strukturbox.rechts {
 		position: relative;
 		top: auto;
@@ -2830,7 +2827,7 @@ and (orientation: portrait)  {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7); /* Schwarze Überlagerung mit Transparenz */
+    background-color: rgba(0, 0, 0, 0.7); /* Schwarze Ãœberlagerung mit Transparenz */
 }
 
 .popup-content {
@@ -2849,6 +2846,6 @@ button {
     cursor: pointer;
     border-radius: 5px;
 }
-	/*ÜBER MICH*/
+	/*ÃœBER MICH*/
 }
-/*CSS-ANGABEN FÜR SMARTPHONE*/
+/*CSS-ANGABEN FÃœR SMARTPHONE*/
