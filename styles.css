@@ -1,0 +1,2854 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;900&display=swap');
+
+/*HAUPT STYLES*/
+* {
+	color: #67472F;
+	font-size: 13px;
+	font-family: Montserrat;
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: #EDD5C3;
+}
+h1 {
+	font-size: 5.3em;
+	color: #EDD5C3;
+	font-weight: 200;
+	text-align: left;
+	margin: 100px 0 0px;
+}
+h2 {
+	font-size: 3em;
+	color: #FDF0E3;
+	font-weight: 600;
+	font-style: italic;
+	text-align: left;
+	text-transform: uppercase;
+	margin-left: 10px;
+}
+h3 {
+	font-size: 1.5em;
+	color: #FDF0E3;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+p,
+ul {
+	font-weight: 300;
+	padding-bottom: 20px;
+}
+ul {
+	list-style-type: none;
+}
+.language-selector {
+	background-color: #BFA58E;
+	font-weight: 500;
+    text-align: left;
+    padding: 20px 0 0 20px;
+}
+.separator {
+    margin: 0 5px; 
+    color: #EDD5C3;
+	font-size: 13px;
+}
+#kopfbereich {
+	background-color: #BFA58E;
+	padding: 70px 5% 0px 1%;
+}
+#kopfbereich h1 a {
+    text-decoration: none;
+    font-size: 100%;
+    color: #EDD5C3;
+    font-weight: 200;
+    text-align: left;
+    margin: 100px 0 0 0px;
+}
+#kopfbereich2 {
+  justify-content: center;
+  position: relative;
+}
+#kopfbereich2 h2 {
+  margin: 0;
+  position: absolute;
+  left: 1%;
+  white-space: nowrap; /* Verhindert Zeilenumbruch für zu lange Überschriften */
+}
+.kopfrechts {
+	position: absolute;
+	left: 50%;
+}
+.kopflinks {
+	position: absolute;
+	right: 50%;
+}
+ul.navigation li a {
+	text-decoration: none;
+	color: #FDF0E3;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 900;
+	text-align: right;
+	margin: -40px 1% 0 70px;
+}
+ul.navigation li a:hover,
+ul.navigation li a:focus {
+	color: #BFA58E; /*farbe für hover von navi*/
+}
+.navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 1%;
+  margin-top: 10px;
+}
+
+.navigation li {
+  margin-left: 50px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #000;
+}
+#inhaltsbereich {
+	margin-top: 200px;
+	padding: 0px 5%;
+}
+#fussbereich {
+	width: 100%;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 20px
+}
+#fussbereich a {
+	font-size: 0.85em;
+	text-decoration: none;
+}
+#fussbereich a:hover,
+#fussbereich a:focus {
+	text-decoration: underline;
+}
+.trennlinie {
+	border-bottom: 0.5px solid #FDF0E3;
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+.abschnitt {
+	clear: both;
+	overflow: hidden;
+	padding: 0 0 50px 0;
+}
+ul.dokumentation {
+	list-style-type: none;
+	overflow: hidden;
+	clear: both;
+}
+ul.dokumentation li {
+	text-align: center;
+}
+ul.dokumentation li a {
+	font-size: 1.5em;
+	text-decoration: underline;
+	color: #C79D66;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+ul.dokumentation li a:hover,
+ul.dokumentation li a:focus {
+	color: #a8804d; /*farbe für hover von navi*/
+}
+.unterschrift {
+	font-weight: 100;
+	font-size: 1.5em;
+	text-align: left;
+	padding: 20px 20px 20px 0;
+}
+/*HAUPT STYLES*/
+
+
+
+/*ÜBER MICH*/
+#uebermich .de-link {
+	font-size: 13px;
+}
+#uebermich .en-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#uebermich .en-link:hover,
+#uebermich .en-link:focus {
+    color: #67472F;
+}
+#uebermich #kopfbereich {
+	padding: 270px 5% 0px 10%;
+}
+#uebermich #inhaltsbereich {
+	padding: 0 5%;
+}
+#uebermich .inhaltsbereich h2 {
+	padding: 0 -10%;
+}
+#uebermich ul.navigation {
+	display: flex;
+    justify-content: space-between;
+	height: 30px;
+	list-style-type: none;
+	overflow: hidden;
+	clear: both;
+	padding: 200px 0 15px 0;
+	position: relative;
+	right: 0;
+	margin-top: 0;
+}
+#uebermich ul.navigation li {
+	text-align: center;
+	margin: 0 55px;
+}
+#uebermich ul.navigation li a {
+	text-decoration: none;
+	color: #FFFCFA;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 500;
+	margin: 0;
+}
+#uebermich ul.navigation li a:hover,
+#uebermich ul.navigation li a:focus {
+	color: #BFA58E; /*farbe für hover von navi*/
+}
+.trennlinie {
+	border-bottom: 2px solid #FDF0E3;
+	margin-top: -3px;
+	margin-bottom: 170px;
+}
+#uebermich .abschnitt.faehigkeiten {
+	display: flex;
+    justify-content: space-between;
+	margin-top: 100px;
+}
+#uebermich .abschnitt.faehigkeiten .strukturbox.links {
+	position: absolute;
+	padding-right: 55%;
+}
+#uebermich .abschnitt.faehigkeiten .strukturbox.mitte {
+	float: left;
+	width: 35%;
+	padding-left: 55%;
+}
+#uebermich .abschnitt.faehigkeiten .strukturbox.rechts {
+	float: left;
+	width: 50%;
+	padding-left: 2%;
+}
+#uebermich .abschnitt.faehigkeiten .strukturbox.mitte ul {
+	list-style-type: disc;
+	padding-left: 15px;
+}
+#uebermich .abschnitt.faehigkeiten .strukturbox.rechts .sprachen ul {
+	list-style-type: disc;
+	padding: 0 0 35px 17px;
+}
+#uebermich .strukturbox img#passbild {
+    float: right;
+    width: 500px;
+    height: 625px;
+	margin: -250px 0 0 0;
+}
+#uebermich .abschnitt.lebenslauf {
+	padding: 150px 0;
+}
+#uebermich #lebensbaum {
+	background: url(Bilder/baum0.png) bottom center no-repeat;
+	height: 496px;
+	width: 242px;
+	position: fixed;
+	bottom: 20px;
+	right: 0;
+}
+#uebermich #zeitstrahl {
+	margin-left: 50%;
+	margin-top: 30px;
+	padding: 30px 0;
+	border-left: 3px solid #CA9E67;
+}
+#uebermich #zeitstrahl dl {
+	margin-left: -100%;
+	font-weight: 300;
+}
+#uebermich #zeitstrahl dl > div {
+	margin-bottom: 50px;
+}
+#uebermich #zeitstrahl dl .schule {
+	background: url(Bilder/braunerPunkt.png) 49.84% top no-repeat;
+	padding-right: 53%;
+	text-align: right;
+}
+#uebermich #zeitstrahl dl .schule dt {
+	color: #CA9E67;
+	font-weight: 500;
+}
+#uebermich #zeitstrahl dl .schule dd a {
+	font-weight: 500;
+	font-style: italic;
+	text-decoration: none;
+}
+#uebermich #zeitstrahl dl .schule dd a:hover,
+#uebermich #zeitstrahl dl .schule dd a:focus {
+	text-decoration: underline;
+}
+#uebermich #zeitstrahl dl .arbeit {
+	background: url(Bilder/gruenerPunkt.png) 49.84% top no-repeat;
+	padding-left: 53%;
+	text-align: left;
+}
+#uebermich #zeitstrahl dl .arbeit dt {
+	color: #98B022;
+	font-weight: 500;
+}
+#uebermich #zeitstrahl dl .arbeit dd a {
+	font-weight: 500;
+	font-style: italic;
+	text-decoration: none;
+}
+#uebermich #zeitstrahl dl .arbeit dd a:hover,
+#uebermich #zeitstrahl dl .arbeit dd a:focus {
+	text-decoration: underline;
+}
+#uebermich #zeitstrahl dl > div.weiteroben {
+	margin-top: -70px;
+}
+#uebermich #zeitstrahl dl > div.weiteroben2 {
+	margin-top: -100px;
+}
+.continued h3 {
+	text-transform: lowercase;
+	text-align: center;
+	font-weight: 500;
+	padding-top: 20px;
+}	
+/*ÜBER MICH*/
+
+/*ZEICHNUNGEN*/
+#zeichnungen .de-link {
+	font-size: 13px;
+}
+#zeichnungen .en-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#zeichnungen .en-link:hover,
+#zeichnungen .en-link:focus {
+    color: #67472F;
+}
+#zeichnungen .lightbox.preview {
+	text-decoration: none;
+	position: relative;
+	z-index: 9998;
+}
+#zeichnungen .lightbox a {
+	text-decoration: none;
+}
+.lightbox {
+	padding: auto 3em;
+}
+.example-image {
+	margin: 5px;
+}
+#zeichnungen #kopfbereich h1 a {
+	text-decoration: none;
+	font-size: 100%;
+	color: #EDD5C3;
+	font-weight: 200;
+	text-align: left;
+	margin: 100px 0 0 0px;
+}
+#zeichnungen #kopfbereich2 {
+    display: flex;
+}
+#zeichnungen #inhaltsbereich {
+    margin-top: 200px;
+    padding: 0;
+}
+#inhaltsbereich .lightbox.preview {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#inhaltsbereich .lightbox.preview a {
+    flex: 0 0 calc(50% - 40px); /* Dreimalige Aufteilung mit 20px Abstand dazwischen */
+    margin: 20px; /* Abstand zwischen den Bildern */
+    position: relative;
+}
+#inhaltsbereich .lightbox.preview a.breit {
+    flex: 0 0 calc(55% - 40px); /* Dreimalige Aufteilung mit 20px Abstand dazwischen */
+    margin: 20px; /* Abstand zwischen den Bildern */
+    position: relative;
+}
+#inhaltsbereich .lightbox.preview a.lang {
+    flex: 0 0 calc(45% - 40px); /* Dreimalige Aufteilung mit 20px Abstand dazwischen */
+    margin: 20px; /* Abstand zwischen den Bildern */
+    position: relative;
+}
+#inhaltsbereich .lightbox.preview a.breit2 {
+    flex: 0 0 calc(55% - 40px);
+	margin-top: -150px;
+}
+#inhaltsbereich .lightbox.preview a.breit3 {
+    flex: 0 0 calc(55% - 40px);
+	margin-top: -400px;
+}
+#inhaltsbereich .lightbox.preview a.breit4 {
+    flex: 0 0 calc(55% - 40px);
+	margin-top: -590px;
+}
+#inhaltsbereich .lightbox.preview a.breit5 {
+    flex: 0 0 calc(55% - 40px);
+	margin-top: -80px;
+}
+#inhaltsbereich .lightbox.preview img.example-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+    margin: 0;
+    border-radius: 10px; /* Randabfallende Ecken */
+    overflow: hidden; /* Überlauf ausblenden */
+}
+#zeichnungen #inhaltsbereich a:hover img.example-image,
+#zeichnungen #inhaltsbereich a:focus img.example-image {
+    transform: scale(1.02); /* Bild beim Hover/Focus vergrößern */
+    transition: transform 0.3s;
+}
+/*ZEICHNUNGEN*/
+
+/*FOTOGRAFIE*/
+#fotografie-en .de-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#fotografie-en .en-link {
+	font-size: 13px;
+}
+#fotografie-en .de-link:hover,
+#fotografie-en .de-link:focus {
+    color: #67472F;
+}
+#fotografie .de-link {
+	font-size: 17px;
+}
+#fotografie .en-link {
+	text-decoration: none;
+	font-size: 17px;
+    color: #EDD5C3;
+}
+#fotografie .en-link:hover,
+#fotografie .en-link:focus {
+    color: #67472F;
+}
+#fotografie .lightbox.preview {
+    text-decoration: none;
+    position: relative;
+    z-index: 9998;
+}
+#fotografie .lightbox a {
+    text-decoration: none;
+}
+#fotografie #kopfbereich h1 a {
+    text-decoration: none;
+    font-size: 100%;
+    color: #EDD5C3;
+    font-weight: 200;
+    text-align: left;
+    margin: 100px 0 0 0px;
+}
+#fotografie #kopfbereich2 {
+    display: flex;
+}
+#fotografie #inhaltsbereich {
+    margin-top: 200px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#fotografie #inhaltsbereich a {
+    flex: 0 0 calc(33% - 40px); /* Dreimalige Aufteilung mit 10px Abstand dazwischen */
+    margin: 20px;
+	margin-bottom: 200px; /* Abstand zwischen den Bildern */
+    position: relative;
+}
+#fotografie #inhaltsbereich a.ausnahme1 {
+    flex: 0 0 calc(42% - 40px);
+}
+#fotografie #inhaltsbereich a.ausnahme2 {
+    flex: 0 0 calc(22% - 40px);
+}
+#fotografie #inhaltsbereich .lightbox.preview img.example-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+    margin: 0;
+}
+#fotografie #inhaltsbereich a:hover img.example-image,
+#fotografie #inhaltsbereich a:focus img.example-image {
+    transform: scale(1.02); /* Bild beim Hover/Focus vergrößern */
+    transition: transform 0.3s;
+}
+
+/*FOTOGRAFIE*/
+
+/*PROJEKTE*/
+#projekte .de-link {
+	font-size: 13px;
+}
+#projekte .en-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#projekte .en-link:hover,
+#projekte .en-link:focus {
+    color: #67472F;
+}
+#projekte #kopfbereich h1 a {
+	text-decoration: none;
+	font-size: 100%;
+	color: #EDD5C3;
+	font-weight: 200;
+	text-align: left;
+	margin: 100px 0 0 0px;
+}
+#projekte #kopfbereich2 {
+    display: flex;
+}
+#projekte #inhaltsbereich {
+	padding: 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#projekte #inhaltsbereich a {
+    flex: 0 0 calc(33.33% - 20px); /* Dreimalige Aufteilung mit 20px Abstand dazwischen */
+    margin: 10px;
+	margin-top: 10px; /* Größerer Abstand zwischen den Bildern */
+    position: relative;
+}
+#projekte #inhaltsbereich img.example-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+	margin: 0;
+	border-radius: 10px;
+}
+#projekte #inhaltsbereich a:hover img.example-image,
+#projekte #inhaltsbereich a:focus img.example-image {
+    transform: scale(1.05); /* Bild beim Hover/Focus vergrößern */
+    transition: transform 0.3s;
+}
+#projekte #inhaltsbereich a.refresh:hover img.example-image,
+#projekte #inhaltsbereich a.refresh:focus img.example-image {
+	content: url('Bilder/klein-refresh-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+}
+#projekte #inhaltsbereich a.flower:hover img.example-image,
+#projekte #inhaltsbereich a.flower:focus img.example-image {
+	content: url('Bilder/klein-flower-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+}
+#projekte #inhaltsbereich a.twinola:hover img.example-image,
+#projekte #inhaltsbereich a.twinola:focus img.example-image {
+	content: url('Bilder/klein-twinola-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+}
+#projekte #inhaltsbereich a.ipenela:hover img.example-image,
+#projekte #inhaltsbereich a.ipenela:focus img.example-image {
+	content: url('Bilder/klein-ipenela-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+}
+#projekte #inhaltsbereich a.rotation:hover img.example-image,
+#projekte #inhaltsbereich a.rotation:focus img.example-image {
+	content: url('Bilder/klein-rotation-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+}
+#projekte #inhaltsbereich a.projekte:hover img.example-image,
+#projekte #inhaltsbereich a.projekte:focus img.example-image {
+	content: url('Bilder/klein-projekte-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+}
+#projekte #inhaltsbereich a.geschirr:hover img.example-image,
+#projekte #inhaltsbereich a.geschirr:focus img.example-image {
+	content: url('Bilder/klein-geschirr-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+}
+#projekte #inhaltsbereich a.trolley:hover img.example-image,
+#projekte #inhaltsbereich a.trolley:focus img.example-image {
+	content: url('Bilder/klein-trolley-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+}
+#projekte #inhaltsbereich a.schnuffel:hover img.example-image,
+#projekte #inhaltsbereich a.schnuffel:focus img.example-image {
+	content: url('Bilder/klein-schnuffel-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+}
+#projekte #inhaltsbereich a.karten:hover img.example-image,
+#projekte #inhaltsbereich a.karten:focus img.example-image {
+	content: url('Bilder/klein-karten-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+}
+#projekte #inhaltsbereich a.kiste:hover img.example-image,
+#projekte #inhaltsbereich a.kiste:focus img.example-image {
+	content: url('Bilder/klein-kiste-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+}
+#projekte #inhaltsbereich a.fahrzeug:hover img.example-image,
+#projekte #inhaltsbereich a.fahrzeug:focus img.example-image {
+	content: url('Bilder/klein-fahrzeug-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+}
+#projekte .abschnitt.beruflich {
+	margin: 150px 0;
+}
+#projekte .abschnitt.beruflich h2 {
+	margin-bottom: -200px;
+}
+/*PROJEKTE*/
+
+/*REFRESH*/
+#refresh .de-link {
+	font-size: 13px;
+}
+#refresh .en-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#refresh .en-link:hover,
+#refresh .en-link:focus {
+    color: #67472F;
+}
+#refresh #inhaltsbreich {
+	margin-top: -150px;
+}
+#refresh .abschnitt h3 {
+	margin-bottom: 10px;
+	margin-top: 150px;
+}
+#refresh img.full-image {
+	width: 100%;
+	padding-top: 15px;
+}
+#refresh .abschnitt.verpackung p {
+	margin-right: 65%;
+	text-align: left;
+}
+#refresh .abschnitt img.elemente {
+	width: 60%;
+	margin-left: 40%;
+	margin-top: -260px;
+}
+#refresh img.system {
+	width: 60%;
+	margin-top: -200px;
+	text-align: left;
+}
+#refresh .box {
+    display: flex;
+    justify-content: space-between; /* Platz zwischen den inneren Elementen verteilen */
+    flex: 1; /* Flexibles Wachstum, um den verfügbaren Platz auszufüllen */
+	margin-top: 100px;
+}
+#refresh .box2 {
+	margin-top: 100px;
+}
+#refresh .links  {
+    flex: 1; /* Flexibles Wachstum, um den verfügbaren Platz auszufüllen */
+}
+#refresh .links p {
+	margin-right: 30%;
+}
+#refresh .rechts {
+    flex: 1; /* Flexibles Wachstum, um den verfügbaren Platz auszufüllen */
+    display: flex;
+    justify-content: flex-end; /* Das Bild rechts ausrichten */
+}
+#refresh .link2 {
+    flex: 1; /* Flexibles Wachstum, um den verfügbaren Platz auszufüllen */
+    display: flex;
+    justify-content: flex-end; /* Das Bild rechts ausrichten */
+}
+#refresh .rechts2  {
+    margin: -600px 0 0 55.5%;
+}
+#refresh .flasche {
+	margin-top: -200px;
+}
+#refresh .qr {
+    max-height: flex; /* Maximale Höhe auf 50% der Bildschirmhöhe begrenzen */
+    max-width: 70%; /* Maximale Breite auf 100% des verfügbaren Platzes begrenzen */
+	margin-top: -80px;
+}
+#refresh .flaschenpost {
+    width: 100%;
+	margin-top: 100px;
+}
+#refresh .app {
+	width: 30%;
+}
+#refresh #inhaltsbereich .abschnitt.prozess  {
+	margin-top: 100px;
+}
+#refresh #inhaltsbereich .abschnitt.prozess img {
+	width: 23.5%;
+	height: auto;
+	flex: 0 0 calc(25% - 20px); /* Dreimalige Aufteilung mit 10px Abstand dazwischen */
+    margin: 0 10px;
+	margin-bottom: 200px; /* Abstand zwischen den Bildern */
+    position: relative;
+}
+#refresh #inhaltsbereich .abschnitt.prozess img:first-of-type {
+    margin-left: 0; /* Keine Margin auf der linken Seite für das erste Bild */
+}
+#refresh #inhaltsbereich .abschnitt.prozess img:last-child {
+    margin-right: 0; /* Keine Margin auf der rechten Seite für das letzte Bild */
+}
+/*REFRESH*/
+
+/*FLOWERPOWER*/
+#flower .de-link {
+	font-size: 13px;
+}
+#flower .en-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#flower .en-link:hover,
+#flower .en-link:focus {
+    color: #67472F;
+}
+#flower .abschnitt {
+	padding: 50px 0;
+	margin-bottom: 150px;
+}
+#flower .abschnitt h3 {
+	margin-bottom: 10px;
+}
+#flower .abschnitt .plakat,
+#flower .abschnitt .info {
+	width: 32.3%; /* Ca. 100% / 3 - Anpassen der Breite für drei Bilder in einer Reihe */
+	height: auto;
+	flex: 0 0 calc(33.33% - 10px); /* Dreimalige Aufteilung mit 10px Abstand dazwischen */
+	margin: 5px; /* Anpassen des Abstands zwischen den Bildern */
+	margin-top: 10px; /* Größerer Abstand zwischen den Zeilen */
+	position: relative;
+}
+#flower .abschnitt.f {
+    display: flex;
+    justify-content: space-between; /* Platz zwischen den Bildern */
+    align-items: flex-start; /* Ausrichtung der Bilder nach oben */
+    flex-wrap: nowrap; /* Kein Zeilenumbruch, damit die Bilder in einer Reihe bleiben */
+}
+#flower .abschnitt.f img {
+    flex: 0 0 auto; /* Flex-Verhalten der Bilder festlegen */
+    max-height: 100%; /* Maximale Höhe auf 100% setzen */
+    margin-right: 20px; /* Abstand zwischen den Bildern */
+}
+#flower .abschnitt.f .frage {
+    flex: 0 0 auto; /* Flex-Verhalten des Container-Divs festlegen */
+    max-height: 310px; /* Höhe des Container-Divs festlegen */
+}
+#flower .abschnitt.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	padding: 0 0 200px 0;
+	margin: 0;
+}
+#flower video.animation {
+	width: 85%;
+	margin-bottom: 20px;
+}
+#flower .play-button {
+	width: 100px; /* Ändern Sie die Größe nach Bedarf */
+	height: 100px; /* Ändern Sie die Größe nach Bedarf */
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	cursor: pointer;
+	transition: transform 0.3s;
+}
+#flower .play-button::after {
+	content: "";
+	width: 0;
+	height: 0;
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+	border-left: 50px solid white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#flower .abschnitt.video:hover .play-button
+#flower .abschnitt.video:focus .play-button {
+	transform: scale(1.1);
+}
+#flower .abschnitt .ergebnisse {
+	width: 18.4%; /* Ca. 100% / 5 - 4% Abstand */
+	flex: 0 0 calc(20% - 16px); /* Fünfmalige Aufteilung mit 16px Abstand dazwischen */
+	margin: 8px; /* Halb so viel Abstand wie der gewünschte Abstand (16px / 2) */
+	margin-top: 10px; /* Größerer Abstand zwischen den Zeilen */
+	position: relative;
+}
+#flower .abschnitt.p {
+    display: flex;
+    justify-content: space-between; /* Platz zwischen den Bildern */
+    align-items: flex-start; /* Ausrichtung der Bilder nach oben */
+    flex-wrap: nowrap; /* Kein Zeilenumbruch, damit die Bilder in einer Reihe bleiben */
+	margin-top: -100px;
+}
+#flower .abschnitt.p .produkt {
+    flex: 0 0 auto; /* Flex-Verhalten des Container-Divs festlegen */
+    max-height: 380px; /* Höhe des Container-Divs festlegen */
+}
+#flower .abschnitt .team {
+    width: 23%; /* Ca. 100% / 4 - Anpassen der Breite für vier Bilder in einer Reihe */
+    height: auto;
+    flex: 0 0 calc(25% - 20px); /* Viermalige Aufteilung mit 20px Abstand dazwischen */
+    margin: 10px; /* Anpassen des Abstands zwischen den Bildern */
+    margin-top: 10px; /* Größerer Abstand zwischen den Zeilen */
+    position: relative;
+}
+#flower .team-name {
+    display: flex; /* Verwendet Flexbox, um die Namen in einer Reihe anzuzeigen */
+}
+#flower .team-name p {
+    flex: 1; /* Jeder Name nimmt 25% der verfügbaren Breite ein */
+    text-align: left; /* Links ausrichten */
+    margin-left: 9px; /* Kleiner Abstand zwischen den Namen */
+	margin-right: 10px;
+}
+#flower .abschnitt.pr {
+    display: flex;
+    flex-direction: column;
+}
+#flower .prozess {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#flower .prozess1 {
+    width: auto;
+    height: 414px;
+	margin-top: 10px;
+}
+#flower .prozess1:first-child {
+    margin-right: 20px; /* Kein rechter Rand für das letzte Bild in der Reihe */
+}
+#flower .prozess2 {	
+    width: calc(24.5% - 10px);
+    height: auto;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 200px;
+}
+#flower .prozess2:last-child {
+    margin-right: 0; /* Kein rechter Rand für das letzte Bild in der Reihe */
+}
+/*FLOWERPOWER*/
+
+/*TWINOLA*/
+#twinola .de-link {
+	font-size: 13px;
+}
+#twinola .en-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#twinola .en-link:hover,
+#twinola .en-link:focus {
+    color: #67472F;
+}
+#twinola #kopfbereich2 .navigation {
+    text-align: center;
+}
+#twinola .abschnittbilder img.full-image {
+	width: 100%;
+	margin-bottom: 20px;
+}
+#twinola .abschnittbilder {
+	padding-bottom: 200px;
+}
+#twinola p {
+	margin-left: 70%;
+	margin-top: -525px;
+}
+#twinola .abschnitt.video {
+	padding: 50px 0 200px 0;
+}
+#twinola video.animation {
+	width: 65%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+#twinola .abschnitt.designprozess {
+	padding: 50px 0 200px 0;
+}
+#twinola .abschnitt.designprozess h3 {
+	margin-bottom: 10px;
+	margin-top: 250px;
+}
+#twinola .abschnitt.designprozess img.full-image {
+	width: 32%;
+	margin: 4px 4px;
+}
+/*TWINOLA*/
+
+/*IPENELA*/
+#ipenela .de-link {
+	font-size: 13px;
+}
+#ipenela .en-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#ipenela .en-link:hover,
+#ipenela .en-link:focus {
+    color: #67472F;
+}
+#ipenela .abschnitt {
+	padding: 50px 0;
+	margin-bottom: 150px;
+}
+#ipenela .abschnitt h3 {
+	margin-bottom: 10px;
+}
+#ipenela img.full-image {
+	width: 100%;
+	padding-top: 15px;
+}
+#ipenela p {
+	margin: 0px 0px 0px 50%;
+}
+#ipenela .abschnitt img.verpackung {
+	width: 23.8%;
+	margin: 4px 4px;
+}
+#ipenela .box {
+	position: relative;
+	min-height: 230px;
+	padding: 50px 0;
+}
+#ipenela .mood.rechts {
+	position: absolute;
+	left: 51.5%;
+	top: 9%;
+}
+#ipenela .mood.links img.moodboard {
+	width: 48%;
+	margin-top: 15px;
+}
+#ipenela .mood.rechts img.visiten {
+	width: 117%;
+	margin-top: 15px;
+}
+#ipenela .plakate.rechts {
+	position: absolute;
+	left: 30%;
+	top: 9%;
+}
+#ipenela .plakate.links img.plakat {
+	width: 21.4%;
+	margin-top: 15px;
+}
+#ipenela .plakate.rechts img.plakat {
+	width: 31.4%;
+	margin-top: 15px;
+	padding-right: 1.5%;
+}
+#ipenela .plakate.rechts img.plakat1 {
+	width: 32%;
+	margin-top: 15px;
+}
+#ipenela .abschnitt.seite {
+	padding: 50px 0;
+}
+#ipenela .abschnitt img.seite {
+	width: 47%;
+	margin: 15px;
+}
+#ipenela .abschnitt img.prozess {
+	width: 32%;
+	margin: 4px 4px;
+}
+/*IPENELA*/
+
+/*ROTATION*/
+#rotationskoerper .de-link {
+	font-size: 13px;
+}
+#rotationskoerper .en-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#rotationskoerper .en-link:hover,
+#rotationskoerper .en-link:focus {
+    color: #67472F;
+}
+#rotationskoerper p {
+	margin: 0px 0px 200px 57%;
+	text-align: justify;
+}
+#rotationskoerper .abschnittrotation {
+	padding-bottom: 50px;
+}
+#rotationskoerper .abschnitt h3 {
+	margin-bottom: 10px;
+}
+#rotationskoerper img.rotation {
+	width: 100%;
+	padding-bottom: 50px;
+}
+#rotationskoerper .abschnitt img.rotation-prozess {
+	width: 23%;
+	margin: 4px 10px;
+}
+/*ROTATION*/
+
+/*KLEINE PROJEKTE*/
+#kleineprojekte .de-link {
+	font-size: 13px;
+}
+#kleineprojekte .en-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#kleineprojekte .en-link:hover,
+#kleineprojekte .en-link:focus {
+    color: #67472F;
+}
+#kleineprojekte p {
+	margin-top: 15px;
+}
+#kleineprojekte .box {
+	position: relative;
+	min-height: 230px;
+	padding-bottom: 150px;
+	border-bottom: 0.5px solid #FDF0E3;
+	margin: 150px 0;
+}
+#kleineprojekte .box2 {
+	position: relative;
+	min-height: 230px;
+	padding-bottom: 150px;
+	border-bottom: 0.5px solid #FDF0E3;
+	margin: 150px 0;
+}
+#kleineprojekte .rechts1 {
+	position: absolute;
+	left: 75%;
+	top: 0;
+}
+#kleineprojekte .rechts {
+	position: absolute;
+	left: 75%;
+	top: 9%;
+}
+#kleineprojekte .rechts2 {
+	position: absolute;
+	left: 75%;
+	top: 30%;
+}
+#kleineprojekte .links {
+	position: relative;
+}
+#kleineprojekte .links img {
+	width: 73%;
+}
+#kleineprojekte .links img.reinewasser {
+	width: 73%;
+	margin-top: 2%;
+}
+#kleineprojekte .links ul.dokumentation li {
+	text-align: right;
+	margin-right: 27%;
+	margin-top: 10%;
+}
+/*KLEINE PROJEKTE*/
+
+/*GESCHIRR*/
+#geschirr .de-link {
+	font-size: 13px;
+}
+#geschirr .en-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#geschirr .en-link:hover,
+#geschirr .en-link:focus {
+    color: #67472F;
+}
+#geschirr .abschnitt {
+	padding: 10px 0;
+	margin-bottom: 150px;
+}
+#geschirr .abschnitt2 {
+	padding: 10px 0;
+	margin: 300px 0;
+}
+#geschirr .abschnitt.dm {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    flex-wrap: nowrap;
+	margin-bottom: -100px;
+}
+#geschirr .abschnitt.dm img {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+#geschirr .abschnitt.dm .dmbild1 {
+    flex: 0 0 auto;
+    max-height: 365px;
+}
+#geschirr .abschnitt.dm .dmbild2 {
+    flex: 0 0 auto;
+    max-height: 326px;
+}
+#geschirr .quelle p {
+	text-decoration: none;
+    text-align: right;
+	font-size: 100%;
+	font-weight: 300;
+	color: #BFA58E;
+}
+#geschirr .quelle a {
+    text-align: right;
+	font-size: 100%;
+	font-weight: 300;
+	color: #BFA58E;
+}
+#geschirr .quelle2 p {
+	text-decoration: none;
+    text-align: right;
+	font-size: 100%;
+	font-weight: 300;
+	color: #BFA58E;
+	margin-top: 110px;
+	margin-bottom: -110px;
+}
+#geschirr .quelle2 a {
+    text-align: right;
+	font-size: 100%;
+	font-weight: 300;
+	color: #BFA58E;
+	margin-top: 110px;
+	margin-bottom: -110px;
+}
+#geschirr .abschnitt .info1 {
+	width: 32.3%;
+	height: auto;
+	flex: 0 0 calc(33.33% - 10px);
+	margin: 5px;
+	margin-top: 250px;
+	position: relative;
+}
+#geschirr .abschnitt .info2 {
+	width: 23.9%;
+	height: auto;
+	flex: 0 0 calc(25% - 10px); 
+	margin: 5px;
+	margin-top: 250px;
+	position: relative;
+}
+/*GESCHIRR*/
+
+/*TROLLEY*/
+#trolley .de-link {
+	font-size: 13px;
+}
+#trolley .en-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#trolley .en-link:hover,
+#trolley .en-link:focus {
+    color: #67472F;
+}
+#trolley .abschnitt {
+	padding: 10px 0;
+	margin-bottom: 150px;
+}
+#trolley .gross {
+	width: 100%;
+}
+#trolley .trolley {
+    width: 23.9%;
+    height: auto;
+    flex: 0 0 calc(25% - 20px); 
+    margin: 10px;
+    margin-top: 50px;
+    position: relative;
+}
+#trolley .trolley:first-child {
+    margin-left: -10px;
+}
+#trolley .trolley:last-child {
+    margin-right: -10px;
+}
+#trolley .quelle p {
+	text-decoration: none;
+    text-align: right;
+	font-size: 100%;
+	font-weight: 300;
+	color: #BFA58E;
+	margin-top: -140px;
+	margin-bottom: 110px;
+}
+#trolley .quelle a {
+    text-align: right;
+	font-size: 100%;
+	font-weight: 300;
+	color: #BFA58E;
+	margin-top: -140px;
+	margin-bottom: 110px;
+}
+#trolley .konstruktion {
+	width: 18.9%; /* Ca. 100% / 5 - Anpassen der Breite für fünf Bilder in einer Reihe */
+	height: auto;
+	flex: 0 0 calc(20% - 16px); /* Fünfmalige Aufteilung mit 16px Abstand dazwischen */
+	margin: 8px; /* Halb so viel Abstand wie der gewünschte Abstand (16px / 2) */
+	margin-top: 10px; /* Größerer Abstand zwischen den Zeilen */
+	position: relative;
+}
+#trolley .konstruktion:first-child {
+    margin-left: -8px;
+}
+#trolley .konstruktion:last-child {
+    margin-right: -8px;
+}
+/*TROLLEY*/
+
+/*SCHNUFFEL*/
+#schnuffel .de-link {
+	font-size: 13px;
+}
+#schnuffel .en-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#schnuffel .en-link:hover,
+#schnuffel .en-link:focus {
+    color: #67472F;
+}
+#schnuffel .abschnitt {
+	padding: 10px 0;
+	margin-top: 200px;
+}
+#schnuffel .abschnitt2 {
+	padding: 10px 0;
+	margin-top: 100px;
+	margin-bottom: 250px;
+}
+#schnuffel .gross {
+	width: 100%;
+	margin-top: 10px;
+}
+#schnuffel .quelle p {
+	text-decoration: none;
+    text-align: right;
+	font-size: 100%;
+	font-weight: 300;
+	color: #BFA58E;
+	margin-top: 20px;
+	margin-bottom: 110px;
+}
+#schnuffel .quelle a {
+    text-align: right;
+	font-size: 100%;
+	font-weight: 300;
+	color: #BFA58E;
+	margin-top: 20px;
+	margin-bottom: 110px;
+}
+#schnuffel .text p {
+    text-align: left;
+	text-decoration: none;
+	margin-left: 70%;
+	margin-top: 100px;
+	color: #67472F;
+}
+/*SCHNUFFEL*/
+
+/*MOTIVATION*/
+#motivation .de-link {
+	font-size: 13px;
+}
+#motivation .en-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#motivation .en-link:hover,
+#motivation .en-link:focus {
+    color: #67472F;
+}
+#motivation .motivationskarten {
+	padding: 10px 0;
+}
+#motivation .motivation {
+	width: auto;
+	height: 350px;
+	flex: 0 0 calc(33.33% - 10px);
+	margin: 5px;
+	position: relative;
+}
+#motivation .karten {
+	width: 22.9%;
+	height: auto;
+	flex: 0 0 calc(25% - 10px); 
+	margin: 15px;
+	position: relative;
+	border-radius: 25px;
+	border: 1px solid #BFA58E;;
+}
+#motivation .motivationskarten2 .karten:first-child {
+    margin-left: -1px;
+}
+#motivation .motivationskarten2 .karten:last-child {
+    margin-right: -7px;
+}
+#motivation .motivationskarten3 .karten:first-child {
+    margin-left: -1px;
+}
+#motivation .motivationskarten3 .karten:last-child {
+    margin-right: -7px;
+}
+#motivation .motivationskarten3 .karten {
+	margin-bottom: 250px;
+}
+#motivation .quelle p {
+	text-decoration: none;
+    text-align: right;
+	font-size: 100%;
+	font-weight: 300;
+	color: #BFA58E;
+	margin-top: 20px;
+	margin-bottom: 110px;
+}
+#motivation .quelle a {
+    text-align: right;
+	font-size: 100%;
+	font-weight: 300;
+	color: #BFA58E;
+	margin-top: 20px;
+	margin-bottom: 110px;
+}
+/*MOTIVATION*/
+
+/*FAHRZEUG*/
+#fahrzeugbeschriftung .de-link {
+	font-size: 13px;
+}
+#fahrzeugbeschriftung .en-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#fahrzeugbeschriftung .en-link:hover,
+#fahrzeugbeschriftung .en-link:focus {
+    color: #67472F;
+}
+#fahrzeugbeschriftung #kopfbereich h1 a {
+    text-decoration: none;
+    font-size: 100%;
+    color: #EDD5C3;
+    font-weight: 200;
+    text-align: left;
+    margin: 100px 0 0 0px;
+}
+#fahrzeugbeschriftung #kopfbereich2 {
+    display: flex;
+}
+#fahrzeugbeschriftung .abschnitt {
+	margin-top: 200px;
+}
+#fahrzeugbeschriftung p {
+	margin: 50px 0px 0px 67%;
+	text-align: justify;
+}
+#fahrzeugbeschriftung .abschnittpik {
+	padding-bottom: 50px;
+	margin-top: 150px;
+}
+#fahrzeugbeschriftung .abschnitt h3 {
+	margin-bottom: 10px;
+}
+#fahrzeugbeschriftung .abschnittpik img.pik {
+	width: 30.4%;
+	margin: 15px 15px;
+}
+#fahrzeugbeschriftung p {
+	margin: 50px 0px 0px 50%;
+	text-align: justify;
+}
+#fahrzeugbeschriftung .abschnittfahr {
+	padding-bottom: 50px;
+}
+#fahrzeugbeschriftung .abschnitt h3 {
+	margin-bottom: 10px;
+}
+#fahrzeugbeschriftung .abschnittfahr img.fahrzeug {
+	width: 100%;
+}
+#fahrzeugbeschriftung .abschnitt img.fahrzeug1 {
+	width: 67.9%;
+	margin: 4px 4px 25px;
+}
+#fahrzeugbeschriftung .abschnitt img.fahrzeug2 {
+	width: 29.9%;
+	margin: 4px 4px 25px;
+}
+#fahrzeugbeschriftung .abschnitt img.fahrzeug-umsetzung1 {
+	width: 62.3%;
+	margin: 4px 4px 150px 4px;
+}
+#fahrzeugbeschriftung .abschnitt img.fahrzeug-umsetzung2 {
+	width: 35.5%;
+	margin: 4px 4px 150px 4px;
+}
+/*FAHRZEUG*/
+
+/*HOLZKISTE*/
+#holzkiste .de-link {
+	font-size: 13px;
+}
+#holzkiste .en-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#holzkiste .en-link:hover,
+#holzkiste .en-link:focus {
+    color: #67472F;
+}
+#holzkiste .abschnitt {
+	padding: 10px 0;
+	margin-top: 200px;
+}
+#holzkiste .abschnitt2 {
+	padding: 10px 0;
+	margin-top: 100px;
+	margin-bottom: 250px;
+}
+#holzkiste .gross {
+	width: 100%;
+	margin-top: 10px;
+}
+/*HOLZKISTE*/
+
+/*IMPRESSUM*/
+#impressum #kopfbereich h1 a {
+	text-decoration: none;
+	font-size: 100%;
+	color: #EDD5C3;
+	font-weight: 200;
+	text-align: left;
+	margin: 100px 0 0 0px;
+}
+#impressum #kopfbereich2 {
+    display: flex;
+}
+#impressum ul.navigation {
+	padding: 9px 8% 0 8%;
+}
+/*IMPRESSUM*/
+	
+/*ANGABEN ENGLISCH'/
+/*ÜBER MICH*/
+#uebermich-en .de-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#uebermich-en .en-link {
+	font-size: 13px;
+}
+#uebermich-en .de-link:hover,
+#uebermich-en .de-link:focus {
+    color: #67472F;
+}
+#uebermich-en #kopfbereich {
+	padding: 270px 5% 0px 10%;
+}
+#uebermich-en #inhaltsbereich {
+	padding: 0 5%;
+}
+#uebermich-en .inhaltsbereich h2 {
+	padding: 0 -10%;
+}
+#uebermich-en ul.navigation {
+	display: flex;
+    justify-content: space-between;
+	height: 30px;
+	list-style-type: none;
+	overflow: hidden;
+	clear: both;
+	padding: 200px 0 15px 0;
+	position: relative;
+	right: 0;
+	margin-top: 0;
+}
+#uebermich-en ul.navigation li {
+	text-align: center;
+	margin: 0 55px;
+}
+#uebermich-en ul.navigation li a {
+	text-decoration: none;
+	color: #FFFCFA;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 500;
+	margin: 0;
+}
+#uebermich-en ul.navigation li a:hover,
+#uebermich-en ul.navigation li a:focus {
+	color: #BFA58E; /*farbe für hover von navi*/
+}
+.trennlinie {
+	border-bottom: 2px solid #FDF0E3;
+	margin-top: -3px;
+	margin-bottom: 170px;
+}
+#uebermich-en .abschnitt.faehigkeiten {
+	display: flex;
+    justify-content: space-between;
+	margin-top: 100px;
+}
+#uebermich-en .abschnitt.faehigkeiten .strukturbox.links {
+	position: absolute;
+	padding-right: 55%;
+}
+#uebermich-en .abschnitt.faehigkeiten .strukturbox.mitte {
+	float: left;
+	width: 35%;
+	padding-left: 55%;
+}
+#uebermich-en .abschnitt.faehigkeiten .strukturbox.rechts {
+	float: left;
+	width: 50%;
+	padding-left: 2%;
+}
+#uebermich-en .abschnitt.faehigkeiten .strukturbox.mitte ul {
+	list-style-type: disc;
+	padding-left: 15px;
+}
+#uebermich-en .abschnitt.faehigkeiten .strukturbox.rechts .sprachen ul {
+	list-style-type: disc;
+	padding: 0 0 35px 17px;
+}
+#uebermich-en .strukturbox img#passbild {
+    float: right;
+    width: 500px;
+    height: 625px;
+	margin: -250px 0 0 0;
+}
+#uebermich-en .abschnitt.lebenslauf {
+	padding: 150px 0;
+}
+#uebermich-en #lebensbaum {
+	background: url(Bilder/baum0.png) bottom center no-repeat;
+	height: 496px;
+	width: 242px;
+	position: fixed;
+	bottom: 20px;
+	right: 0;
+}
+#uebermich-en #zeitstrahl {
+	margin-left: 50%;
+	margin-top: 30px;
+	padding: 30px 0;
+	border-left: 3px solid #CA9E67;
+}
+#uebermich-en #zeitstrahl dl {
+	margin-left: -100%;
+	font-weight: 300;
+}
+#uebermich-en #zeitstrahl dl > div {
+	margin-bottom: 50px;
+}
+#uebermich-en #zeitstrahl dl .schule {
+	background: url(Bilder/braunerPunkt.png) 49.84% top no-repeat;
+	padding-right: 53%;
+	text-align: right;
+}
+#uebermich-en #zeitstrahl dl .schule dt {
+	color: #CA9E67;
+	font-weight: 500;
+}
+#uebermich-en #zeitstrahl dl .schule dd a {
+	font-weight: 500;
+	font-style: italic;
+	text-decoration: none;
+}
+#uebermich-en #zeitstrahl dl .schule dd a:hover,
+#uebermich-en #zeitstrahl dl .schule dd a:focus {
+	text-decoration: underline;
+}
+#uebermich-en #zeitstrahl dl .arbeit {
+	background: url(Bilder/gruenerPunkt.png) 49.84% top no-repeat;
+	padding-left: 53%;
+	text-align: left;
+}
+#uebermich-en #zeitstrahl dl .arbeit dt {
+	color: #98B022;
+	font-weight: 500;
+}
+#uebermich-en #zeitstrahl dl .arbeit dd a {
+	font-weight: 500;
+	font-style: italic;
+	text-decoration: none;
+}
+#uebermich-en #zeitstrahl dl .arbeit dd a:hover,
+#uebermich-en #zeitstrahl dl .arbeit dd a:focus {
+	text-decoration: underline;
+}
+#uebermich-en #zeitstrahl dl > div.weiteroben {
+	margin-top: -70px;
+}
+#uebermich-en #zeitstrahl dl > div.weiteroben2 {
+	margin-top: -100px;
+}
+.continued h3 {
+	text-transform: lowercase;
+	text-align: center;
+	font-weight: 500;
+	padding-top: 20px;
+}	
+/*ÜBER MICH*/
+
+/*ZEICHNUNGEN*/
+#zeichnungen-en .de-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#zeichnungen-en .en-link {
+	font-size: 13px;
+}
+#zeichnungen-en .de-link:hover,
+#zeichnungen-en .de-link:focus {
+    color: #67472F;
+}
+#zeichnungen-en .lightbox.preview {
+	text-decoration: none;
+	position: relative;
+	z-index: 9998;
+}
+#zeichnungen-en .lightbox a {
+	text-decoration: none;
+}
+.lightbox {
+	padding: auto 3em;
+}
+.example-image {
+	margin: 5px;
+}
+#zeichnungen-en #kopfbereich h1 a {
+	text-decoration: none;
+	font-size: 100%;
+	color: #EDD5C3;
+	font-weight: 200;
+	text-align: left;
+	margin: 100px 0 0 0px;
+}
+#zeichnungen-en #kopfbereich2 {
+    display: flex;
+}
+#zeichnungen-en #inhaltsbereich {
+    margin-top: 200px;
+    padding: 0;
+}
+#inhaltsbereich-en .lightbox.preview {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#inhaltsbereich-en .lightbox.preview a {
+    flex: 0 0 calc(50% - 40px); /* Dreimalige Aufteilung mit 20px Abstand dazwischen */
+    margin: 20px; /* Abstand zwischen den Bildern */
+    position: relative;
+}
+#inhaltsbereich-en .lightbox.preview a.breit {
+    flex: 0 0 calc(55% - 40px); /* Dreimalige Aufteilung mit 20px Abstand dazwischen */
+    margin: 20px; /* Abstand zwischen den Bildern */
+    position: relative;
+}
+#inhaltsbereich-en .lightbox.preview a.lang {
+    flex: 0 0 calc(45% - 40px); /* Dreimalige Aufteilung mit 20px Abstand dazwischen */
+    margin: 20px; /* Abstand zwischen den Bildern */
+    position: relative;
+}
+#inhaltsbereich-en .lightbox.preview a.breit2 {
+    flex: 0 0 calc(55% - 40px);
+	margin-top: -150px;
+}
+#inhaltsbereich-en .lightbox.preview a.breit3 {
+    flex: 0 0 calc(55% - 40px);
+	margin-top: -400px;
+}
+#inhaltsbereich-en .lightbox.preview a.breit4 {
+    flex: 0 0 calc(55% - 40px);
+	margin-top: -590px;
+}
+#inhaltsbereich-en .lightbox.preview a.breit5 {
+    flex: 0 0 calc(55% - 40px);
+	margin-top: -80px;
+}
+#inhaltsbereich-en .lightbox.preview img.example-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+    margin: 0;
+    border-radius: 10px; /* Randabfallende Ecken */
+    overflow: hidden; /* Überlauf ausblenden */
+}
+#zeichnungen-en #inhaltsbereich a:hover img.example-image,
+#zeichnungen-en #inhaltsbereich a:focus img.example-image {
+    transform: scale(1.02); /* Bild beim Hover/Focus vergrößern */
+    transition: transform 0.3s;
+}
+/*ZEICHNUNGEN*/
+
+/*FOTOGRAFIE*/
+#fotografie-en .de-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#fotografie-en .en-link {
+	font-size: 13px;
+}
+#fotografie-en .de-link:hover,
+#fotografie-en .de-link:focus {
+    color: #67472F;
+}
+#fotografie-en .lightbox.preview {
+    text-decoration: none;
+    position: relative;
+    z-index: 9998;
+}
+#fotografie-en .lightbox a {
+    text-decoration: none;
+}
+#fotografie-en #kopfbereich h1 a {
+    text-decoration: none;
+    font-size: 100%;
+    color: #EDD5C3;
+    font-weight: 200;
+    text-align: left;
+    margin: 100px 0 0 0px;
+}
+#fotografie-en #kopfbereich2 {
+    display: flex;
+}
+#fotografie-en #inhaltsbereich {
+    margin-top: 200px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#fotografie-en #inhaltsbereich a {
+    flex: 0 0 calc(33% - 40px); /* Dreimalige Aufteilung mit 10px Abstand dazwischen */
+    margin: 20px;
+	margin-bottom: 200px; /* Abstand zwischen den Bildern */
+    position: relative;
+}
+#fotografie-en #inhaltsbereich a.ausnahme1 {
+    flex: 0 0 calc(42% - 40px);
+}
+#fotografie-en #inhaltsbereich a.ausnahme2 {
+    flex: 0 0 calc(22% - 40px);
+}
+#fotografie-en #inhaltsbereich .lightbox.preview img.example-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+    margin: 0;
+}
+#fotografie-en #inhaltsbereich a:hover img.example-image,
+#fotografie-en #inhaltsbereich a:focus img.example-image {
+    transform: scale(1.02); /* Bild beim Hover/Focus vergrößern */
+    transition: transform 0.3s;
+}
+
+/*FOTOGRAFIE*/
+
+/*PROJEKTE*/
+#projekte-en .de-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#projekte-en .en-link {
+	font-size: 13px;
+}
+#projekte-en .de-link:hover,
+#projekte-en .de-link:focus {
+    color: #67472F;
+}
+#projekte-en #kopfbereich h1 a {
+	text-decoration: none;
+	font-size: 100%;
+	color: #EDD5C3;
+	font-weight: 200;
+	text-align: left;
+	margin: 100px 0 0 0px;
+}
+#projekte-en #kopfbereich2 {
+    display: flex;
+}
+#projekte-en #inhaltsbereich {
+	padding: 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#projekte-en #inhaltsbereich a {
+    flex: 0 0 calc(33.33% - 20px); /* Dreimalige Aufteilung mit 20px Abstand dazwischen */
+    margin: 10px;
+	margin-top: 10px; /* Größerer Abstand zwischen den Bildern */
+    position: relative;
+}
+#projekte-en #inhaltsbereich img.example-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+	margin: 0;
+	border-radius: 10px;
+}
+#projekte-en #inhaltsbereich a:hover img.example-image,
+#projekte-en #inhaltsbereich a:focus img.example-image {
+    transform: scale(1.05); /* Bild beim Hover/Focus vergrößern */
+    transition: transform 0.3s;
+}
+#projekte-en #inhaltsbereich a.refresh:hover img.example-image,
+#projekte-en #inhaltsbereich a.refresh:focus img.example-image {
+	content: url('Bilder/klein-refresh-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+}
+#projekte-en #inhaltsbereich a.flower:hover img.example-image,
+#projekte-en #inhaltsbereich a.flower:focus img.example-image {
+	content: url('Bilder/klein-flower-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+}
+#projekte-en #inhaltsbereich a.twinola:hover img.example-image,
+#projekte-en #inhaltsbereich a.twinola:focus img.example-image {
+	content: url('Bilder/klein-twinola-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+}
+#projekte-en #inhaltsbereich a.ipenela:hover img.example-image,
+#projekte-en #inhaltsbereich a.ipenela:focus img.example-image {
+	content: url('Bilder/klein-ipenela-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+}
+#projekte-en #inhaltsbereich a.rotation:hover img.example-image,
+#projekte-en #inhaltsbereich a.rotation:focus img.example-image {
+	content: url('Bilder/klein-rotation-h-en.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+}
+#projekte-en #inhaltsbereich a.projekte:hover img.example-image,
+#projekte-en #inhaltsbereich a.projekte:focus img.example-image {
+	content: url('Bilder/klein-projekte-h-en.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+}
+#projekte-en #inhaltsbereich a.geschirr:hover img.example-image,
+#projekte-en #inhaltsbereich a.geschirr:focus img.example-image {
+	content: url('Bilder/klein-geschirr-h-en.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+}
+#projekte-en #inhaltsbereich a.trolley:hover img.example-image,
+#projekte-en #inhaltsbereich a.trolley:focus img.example-image {
+	content: url('Bilder/klein-trolley-h.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+}
+#projekte-en #inhaltsbereich a.schnuffel:hover img.example-image,
+#projekte-en #inhaltsbereich a.schnuffel:focus img.example-image {
+	content: url('Bilder/klein-schnuffel-h-en.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+}
+#projekte-en #inhaltsbereich a.karten:hover img.example-image,
+#projekte-en #inhaltsbereich a.karten:focus img.example-image {
+	content: url('Bilder/klein-karten-h-en.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+}
+#projekte-en #inhaltsbereich a.kiste:hover img.example-image,
+#projekte-en #inhaltsbereich a.kiste:focus img.example-image {
+	content: url('Bilder/klein-kiste-h-en.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+}
+#projekte-en #inhaltsbereich a.fahrzeug:hover img.example-image,
+#projekte-en #inhaltsbereich a.fahrzeug:focus img.example-image {
+	content: url('Bilder/klein-fahrzeug-h-en.jpg'); /* Ändere das Hintergrundbild beim Hover/Fokus */
+}
+#projekte-en .abschnitt.beruflich {
+	margin: 150px 0;
+}
+#projekte-en .abschnitt.beruflich h2 {
+	margin-bottom: -200px;
+}
+/*PROJEKTE*/
+
+/*REFRESH*/
+#refresh-en .de-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#refresh-en .en-link {
+	font-size: 13px;
+}
+#refresh-en .de-link:hover,
+#refresh-en .de-link:focus {
+    color: #67472F;
+}
+#refresh-en .de-link {
+	text-decoration: none;
+	font-size: 17px;
+    color: #EDD5C3;
+}
+#refresh-en .en-link {
+	font-size: 17px;
+}
+#refresh-en .de-link:hover,
+#refresh-en .de-link:focus {
+    color: #67472F;
+}
+#inhaltsbreich {
+	margin-top: -150px;
+}
+#refresh-en .abschnitt h3 {
+	margin-bottom: 10px;
+	margin-top: 150px;
+}
+#refresh-en img.full-image {
+	width: 100%;
+	padding-top: 15px;
+}
+#refresh-en .abschnitt.verpackung p {
+	margin-right: 65%;
+	text-align: left;
+}
+#refresh-en .abschnitt img.elemente {
+	width: 60%;
+	margin-left: 40%;
+	margin-top: -260px;
+}
+#refresh-en img.system {
+	width: 60%;
+	margin-top: -200px;
+	text-align: left;
+}
+#refresh-en .box {
+    display: flex;
+    justify-content: space-between; /* Platz zwischen den inneren Elementen verteilen */
+    flex: 1; /* Flexibles Wachstum, um den verfügbaren Platz auszufüllen */
+	margin-top: 100px;
+}
+#refresh-en .box2 {
+	margin-top: 100px;
+}
+#refresh-en .links  {
+    flex: 1; /* Flexibles Wachstum, um den verfügbaren Platz auszufüllen */
+}
+#refresh-en .links p {
+	margin-right: 30%;
+}
+#refresh-en .rechts {
+    flex: 1; /* Flexibles Wachstum, um den verfügbaren Platz auszufüllen */
+    display: flex;
+    justify-content: flex-end; /* Das Bild rechts ausrichten */
+}
+#refresh-en .link2 {
+    flex: 1; /* Flexibles Wachstum, um den verfügbaren Platz auszufüllen */
+    display: flex;
+    justify-content: flex-end; /* Das Bild rechts ausrichten */
+}
+#refresh-en .rechts2  {
+    margin: -600px 0 0 55.5%;
+}
+#refresh-en .flasche {
+	margin-top: -200px;
+}
+#refresh-en .qr {
+    max-height: flex; /* Maximale Höhe auf 50% der Bildschirmhöhe begrenzen */
+    max-width: 70%; /* Maximale Breite auf 100% des verfügbaren Platzes begrenzen */
+	margin-top: -80px;
+}
+#refresh-en .flaschenpost {
+    width: 100%;
+	margin-top: 100px;
+}
+#refresh-en .app {
+	width: 30%;
+}
+#refresh-en #inhaltsbereich .abschnitt.prozess  {
+	margin-top: 100px;
+}
+#refresh-en #inhaltsbereich .abschnitt.prozess img {
+	width: 23.5%;
+	height: auto;
+	flex: 0 0 calc(25% - 20px); /* Dreimalige Aufteilung mit 10px Abstand dazwischen */
+    margin: 0 10px;
+	margin-bottom: 200px; /* Abstand zwischen den Bildern */
+    position: relative;
+}
+#refresh-en #inhaltsbereich .abschnitt.prozess img:first-of-type {
+    margin-left: 0; /* Keine Margin auf der linken Seite für das erste Bild */
+}
+#refresh-en #inhaltsbereich .abschnitt.prozess img:last-child {
+    margin-right: 0; /* Keine Margin auf der rechten Seite für das letzte Bild */
+}
+/*REFRESH*/
+
+/*FLOWERPOWER*/
+#flower-en .de-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#flower-en .en-link {
+	font-size: 13px;
+}
+#flower-en .de-link:hover,
+#flower-en .de-link:focus {
+    color: #67472F;
+}
+#flower-en #kopfbereich2 {
+	margin-bottom: -150px;
+} 
+#flower-en .abschnitt {
+	padding: 50px 0;
+	margin-bottom: 150px;
+}
+#flower-en .abschnitt h3 {
+	margin-bottom: 10px;
+}
+#flower-en .abschnitt .plakat,
+#flower-en .abschnitt .info {
+	width: 32.3%; /* Ca. 100% / 3 - Anpassen der Breite für drei Bilder in einer Reihe */
+	height: auto;
+	flex: 0 0 calc(33.33% - 10px); /* Dreimalige Aufteilung mit 10px Abstand dazwischen */
+	margin: 5px; /* Anpassen des Abstands zwischen den Bildern */
+	margin-top: 10px; /* Größerer Abstand zwischen den Zeilen */
+	position: relative;
+}
+#flower-en .abschnitt.f {
+    display: flex;
+    justify-content: space-between; /* Platz zwischen den Bildern */
+    align-items: flex-start; /* Ausrichtung der Bilder nach oben */
+    flex-wrap: nowrap; /* Kein Zeilenumbruch, damit die Bilder in einer Reihe bleiben */
+}
+#flower-en .abschnitt.f img {
+    flex: 0 0 auto; /* Flex-Verhalten der Bilder festlegen */
+    max-height: 100%; /* Maximale Höhe auf 100% setzen */
+    margin-right: 20px; /* Abstand zwischen den Bildern */
+}
+#flower-en .abschnitt.f .frage {
+    flex: 0 0 auto; /* Flex-Verhalten des Container-Divs festlegen */
+    max-height: 310px; /* Höhe des Container-Divs festlegen */
+}
+#flower-en .abschnitt.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	padding: 0 0 200px 0;
+	margin: 0;
+}
+#flower-en video.animation {
+	width: 85%;
+	margin-bottom: 20px;
+}
+#flower-en .play-button {
+	width: 100px; /* Ändern Sie die Größe nach Bedarf */
+	height: 100px; /* Ändern Sie die Größe nach Bedarf */
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	cursor: pointer;
+	transition: transform 0.3s;
+}
+#flower-en .play-button::after {
+	content: "";
+	width: 0;
+	height: 0;
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+	border-left: 50px solid white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#flower-en .abschnitt.video:hover .play-button
+#flower-en .abschnitt.video:focus .play-button {
+	transform: scale(1.1);
+}
+#flower-en .abschnitt .ergebnisse {
+	width: 18.4%; /* Ca. 100% / 5 - 4% Abstand */
+	flex: 0 0 calc(20% - 16px); /* Fünfmalige Aufteilung mit 16px Abstand dazwischen */
+	margin: 8px; /* Halb so viel Abstand wie der gewünschte Abstand (16px / 2) */
+	margin-top: 10px; /* Größerer Abstand zwischen den Zeilen */
+	position: relative;
+}
+#flower-en .abschnitt.p {
+    display: flex;
+    justify-content: space-between; /* Platz zwischen den Bildern */
+    align-items: flex-start; /* Ausrichtung der Bilder nach oben */
+    flex-wrap: nowrap; /* Kein Zeilenumbruch, damit die Bilder in einer Reihe bleiben */
+	margin-top: -100px;
+}
+#flower-en .abschnitt.p .produkt {
+    flex: 0 0 auto; /* Flex-Verhalten des Container-Divs festlegen */
+    max-height: 380px; /* Höhe des Container-Divs festlegen */
+}
+#flower-en .abschnitt .team {
+    width: 23%; /* Ca. 100% / 4 - Anpassen der Breite für vier Bilder in einer Reihe */
+    height: auto;
+    flex: 0 0 calc(25% - 20px); /* Viermalige Aufteilung mit 20px Abstand dazwischen */
+    margin: 10px; /* Anpassen des Abstands zwischen den Bildern */
+    margin-top: 10px; /* Größerer Abstand zwischen den Zeilen */
+    position: relative;
+}
+#flower-en .team-name {
+    display: flex; /* Verwendet Flexbox, um die Namen in einer Reihe anzuzeigen */
+}
+#flower-en .team-name p {
+    flex: 1; /* Jeder Name nimmt 25% der verfügbaren Breite ein */
+    text-align: left; /* Links ausrichten */
+    margin-left: 9px; /* Kleiner Abstand zwischen den Namen */
+	margin-right: 10px;
+}
+#flower-en .abschnitt.pr {
+    display: flex;
+    flex-direction: column;
+}
+#flower-en .prozess {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#flower-en .prozess1 {
+    width: auto;
+    height: 414px;
+	margin-top: 10px;
+}
+#flower-en .prozess1:first-child {
+    margin-right: 20px; /* Kein rechter Rand für das letzte Bild in der Reihe */
+}
+#flower-en .prozess2 {	
+    width: calc(24.5% - 10px);
+    height: auto;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 200px;
+}
+#flower-en .prozess2:last-child {
+    margin-right: 0; /* Kein rechter Rand für das letzte Bild in der Reihe */
+}
+/*FLOWERPOWER*/
+
+/*TWINOLA*/
+#twinola-en .de-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#twinola-en .en-link {
+	font-size: 13px;
+}
+#twinola-en .de-link:hover,
+#twinola-en .de-link:focus {
+    color: #67472F;
+}
+#twinola-en #kopfbereich2 .navigation {
+    text-align: center;
+}
+#twinola-en .abschnittbilder img.full-image {
+	width: 100%;
+	margin-bottom: 20px;
+}
+#twinola-en .abschnittbilder {
+	padding-bottom: 200px;
+}
+#twinola-en p {
+	margin-left: 70%;
+	margin-top: -525px;
+}
+#twinola-en .abschnitt.video {
+	padding: 50px 0 200px 0;
+}
+#twinola-en video.animation {
+	width: 65%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+#twinola-en .abschnitt.designprozess {
+	padding: 50px 0 200px 0;
+}
+#twinola-en .abschnitt.designprozess h3 {
+	margin-bottom: 10px;
+	margin-top: 250px;
+}
+#twinola-en .abschnitt.designprozess img.full-image {
+	width: 32%;
+	margin: 4px 4px;
+}
+/*TWINOLA*/
+
+/*IPENELA*/
+#ipenela-en  .de-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#ipenela-en  .en-link {
+	font-size: 13px;
+}
+#ipenela-en  .de-link:hover,
+#ipenela-en  .de-link:focus {
+    color: #67472F;
+}
+#ipenela-en .abschnitt {
+	padding: 50px 0;
+	margin-bottom: 150px;
+}
+#ipenela-en .abschnitt h3 {
+	margin-bottom: 10px;
+}
+#ipenela-en img.full-image {
+	width: 100%;
+	padding-top: 15px;
+}
+#ipenela-en p {
+	margin: 0px 0px 0px 50%;
+}
+#ipenela-en .abschnitt img.verpackung {
+	width: 23.8%;
+	margin: 4px 4px;
+}
+#ipenela-en .box {
+	position: relative;
+	min-height: 230px;
+	padding: 50px 0;
+}
+#ipenela-en .mood.rechts {
+	position: absolute;
+	left: 51.5%;
+	top: 9%;
+}
+#ipenela-en .mood.links img.moodboard {
+	width: 48%;
+	margin-top: 15px;
+}
+#ipenela-en .mood.rechts img.visiten {
+	width: 117%;
+	margin-top: 15px;
+}
+#ipenela-en .plakate.rechts {
+	position: absolute;
+	left: 30%;
+	top: 9%;
+}
+#ipenela-en .plakate.links img.plakat {
+	width: 21.4%;
+	margin-top: 15px;
+}
+#ipenela-en .plakate.rechts img.plakat {
+	width: 31.4%;
+	margin-top: 15px;
+	padding-right: 1.5%;
+}
+#ipenela-en .plakate.rechts img.plakat1 {
+	width: 312%;
+	margin-top: 15px;
+}
+#ipenela-en .abschnitt.seite {
+	padding: 50px 0;
+}
+#ipenela-en .abschnitt img.seite {
+	width: 47%;
+	margin: 15px;
+}
+#ipenela-en .abschnitt img.prozess {
+	width: 32%;
+	margin: 4px 4px;
+}
+/*IPENELA*/
+
+/*ROTATION*/
+#rotationskoerper-en .de-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#rotationskoerper-en .en-link {
+	font-size: 13px;
+}
+#rotationskoerper-en .de-link:hover,
+#rotationskoerper-en .de-link:focus {
+    color: #67472F;
+}
+#rotationskoerper-en p {
+	margin: 0px 0px 200px 57%;
+	text-align: justify;
+}
+#rotationskoerper-en .abschnittrotation {
+	padding-bottom: 50px;
+}
+#rotationskoerper-en .abschnitt h3 {
+	margin-bottom: 10px;
+}
+#rotationskoerper-en img.rotation {
+	width: 100%;
+	padding-bottom: 50px;
+}
+#rotationskoerper-en .abschnitt img.rotation-prozess {
+	width: 23%;
+	margin: 4px 10px;
+}
+/*ROTATION*/
+
+/*KLEINE PROJEKTE*/
+#kleineprojekte-en .de-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#kleineprojekte-en .en-link {
+	font-size: 13px;
+}
+#kleineprojekte-en .de-link:hover,
+#kleineprojekte-en .de-link:focus {
+    color: #67472F;
+}
+#kleineprojekte-en p {
+	margin-top: 15px;
+}
+#kleineprojekte-en .box {
+	position: relative;
+	min-height: 230px;
+	padding-bottom: 150px;
+	border-bottom: 0.5px solid #FDF0E3;
+	margin: 150px 0;
+}
+#kleineprojekte-en .box2 {
+	position: relative;
+	min-height: 230px;
+	padding-bottom: 150px;
+	border-bottom: 0.5px solid #FDF0E3;
+	margin: 150px 0;
+}
+#kleineprojekte-en .rechts1 {
+	position: absolute;
+	left: 75%;
+	top: 0;
+}
+#kleineprojekte-en .rechts {
+	position: absolute;
+	left: 75%;
+	top: 9%;
+}
+#kleineprojekte-en .rechts2 {
+	position: absolute;
+	left: 75%;
+	top: 30%;
+}
+#kleineprojekte-en .links {
+	position: relative;
+}
+#kleineprojekte-en .links img {
+	width: 73%;
+}
+#kleineprojekte-en .links img.reinewasser {
+	width: 73%;
+	margin-top: 2%;
+}
+#kleineprojekte-en .links ul.dokumentation li {
+	text-align: right;
+	margin-right: 27%;
+	margin-top: 10%;
+}
+/*KLEINE PROJEKTE*/
+
+/*GESCHIRR*/
+#geschirr-en .de-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#geschirr-en .en-link {
+	font-size: 13px;
+}
+#geschirr-en .de-link:hover,
+#geschirr-en .de-link:focus {
+    color: #67472F;
+}
+#geschirr-en .abschnitt {
+	padding: 10px 0;
+	margin-bottom: 150px;
+}
+#geschirr-en .abschnitt2 {
+	padding: 10px 0;
+	margin: 300px 0;
+}
+#geschirr-en .abschnitt.dm {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    flex-wrap: nowrap;
+	margin-bottom: -100px;
+}
+#geschirr-en .abschnitt.dm img {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+#geschirr-en .abschnitt.dm .dmbild1 {
+    flex: 0 0 auto;
+    max-height: 365px;
+}
+#geschirr-en .abschnitt.dm .dmbild2 {
+    flex: 0 0 auto;
+    max-height: 326px;
+}
+#geschirr-en .quelle p {
+	text-decoration: none;
+    text-align: right;
+	font-size: 100%;
+	font-weight: 300;
+	color: #BFA58E;
+}
+#geschirr-en .quelle a {
+    text-align: right;
+	font-size: 100%;
+	font-weight: 300;
+	color: #BFA58E;
+}
+#geschirr-en .quelle2 p {
+	text-decoration: none;
+    text-align: right;
+	font-size: 100%;
+	font-weight: 300;
+	color: #BFA58E;
+	margin-top: 110px;
+	margin-bottom: -110px;
+}
+#geschirr-en .quelle2 a {
+    text-align: right;
+	font-size: 100%;
+	font-weight: 300;
+	color: #BFA58E;
+	margin-top: 110px;
+	margin-bottom: -110px;
+}
+#geschirr-en .abschnitt .info1 {
+	width: 32.3%;
+	height: auto;
+	flex: 0 0 calc(33.33% - 10px);
+	margin: 5px;
+	margin-top: 250px;
+	position: relative;
+}
+#geschirr-en .abschnitt .info2 {
+	width: 23.9%;
+	height: auto;
+	flex: 0 0 calc(25% - 10px); 
+	margin: 5px;
+	margin-top: 250px;
+	position: relative;
+}
+/*GESCHIRR*/
+
+/*TROLLEY*/
+#trolley-en .de-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#trolley-en .en-link {
+	font-size: 13px;
+}
+#trolley-en .de-link:hover,
+#trolley-en .de-link:focus {
+    color: #67472F;
+}
+#trolley-en .abschnitt {
+	padding: 10px 0;
+	margin-bottom: 150px;
+}
+#trolley-en .gross {
+	width: 100%;
+}
+#trolley-en .trolley {
+    width: 23.9%;
+    height: auto;
+    flex: 0 0 calc(25% - 20px); 
+    margin: 10px;
+    margin-top: 50px;
+    position: relative;
+}
+#trolley-en .trolley:first-child {
+    margin-left: -10px;
+}
+#trolley-en .trolley:last-child {
+    margin-right: -10px;
+}
+#trolley-en .quelle p {
+	text-decoration: none;
+    text-align: right;
+	font-size: 100%;
+	font-weight: 300;
+	color: #BFA58E;
+	margin-top: -140px;
+	margin-bottom: 110px;
+}
+#trolley-en .quelle a {
+    text-align: right;
+	font-size: 100%;
+	font-weight: 300;
+	color: #BFA58E;
+	margin-top: -140px;
+	margin-bottom: 110px;
+}
+#trolley-en .konstruktion {
+	width: 18.9%; /* Ca. 100% / 5 - Anpassen der Breite für fünf Bilder in einer Reihe */
+	height: auto;
+	flex: 0 0 calc(20% - 16px); /* Fünfmalige Aufteilung mit 16px Abstand dazwischen */
+	margin: 8px; /* Halb so viel Abstand wie der gewünschte Abstand (16px / 2) */
+	margin-top: 10px; /* Größerer Abstand zwischen den Zeilen */
+	position: relative;
+}
+#trolley-en .konstruktion:first-child {
+    margin-left: -8px;
+}
+#trolley-en .konstruktion:last-child {
+    margin-right: -8px;
+}
+/*TROLLEY*/
+
+/*SCHNUFFEL*/
+#schnuffel-en  .de-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#schnuffel-en  .en-link {
+	font-size: 13px;
+}
+#schnuffel-en  .de-link:hover,
+#schnuffel-en  .de-link:focus {
+    color: #67472F;
+}
+#schnuffel-en .abschnitt {
+	padding: 10px 0;
+	margin-top: 200px;
+}
+#schnuffel-en .abschnitt2 {
+	padding: 10px 0;
+	margin-top: 100px;
+	margin-bottom: 250px;
+}
+#schnuffel-en .gross {
+	width: 100%;
+	margin-top: 10px;
+}
+#schnuffel-en .quelle p {
+	text-decoration: none;
+    text-align: right;
+	font-size: 100%;
+	font-weight: 300;
+	color: #BFA58E;
+	margin-top: 20px;
+	margin-bottom: 110px;
+}
+#schnuffel-en .quelle a {
+    text-align: right;
+	font-size: 100%;
+	font-weight: 300;
+	color: #BFA58E;
+	margin-top: 20px;
+	margin-bottom: 110px;
+}
+#schnuffel-en .text p {
+    text-align: left;
+	text-decoration: none;
+	margin-left: 70%;
+	margin-top: 100px;
+	color: #67472F;
+}
+/*SCHNUFFEL*/
+
+/*MOTIVATION*/
+#motivation-en  .de-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#motivation-en  .en-link {
+	font-size: 13px;
+}
+#motivation-en  .de-link:hover,
+#motivation-en  .de-link:focus {
+    color: #67472F;
+}
+#motivation-en .motivationskarten {
+	padding: 10px 0;
+}
+#motivation-en .motivation {
+	width: auto;
+	height: 350px;
+	flex: 0 0 calc(33.33% - 10px);
+	margin: 5px;
+	position: relative;
+}
+#motivation-en .karten {
+	width: 22.9%;
+	height: auto;
+	flex: 0 0 calc(25% - 10px); 
+	margin: 15px;
+	position: relative;
+	border-radius: 25px;
+	border: 1px solid #BFA58E;;
+}
+#motivation-en .motivationskarten2 .karten:first-child {
+    margin-left: -1px;
+}
+#motivation-en .motivationskarten2 .karten:last-child {
+    margin-right: -7px;
+}
+#motivation-en .motivationskarten3 .karten:first-child {
+    margin-left: -1px;
+}
+#motivation-en .motivationskarten3 .karten:last-child {
+    margin-right: -7px;
+}
+#motivation-en .motivationskarten3 .karten {
+	margin-bottom: 250px;
+}
+#motivation-en .quelle p {
+	text-decoration: none;
+    text-align: right;
+	font-size: 100%;
+	font-weight: 300;
+	color: #BFA58E;
+	margin-top: 20px;
+	margin-bottom: 110px;
+}
+#motivation-en .quelle a {
+    text-align: right;
+	font-size: 100%;
+	font-weight: 300;
+	color: #BFA58E;
+	margin-top: 20px;
+	margin-bottom: 110px;
+}
+/*MOTIVATION*/
+
+/*FAHRZEUG*/
+#fahrzeugbeschriftung-en  .de-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#fahrzeugbeschriftung-en  .en-link {
+	font-size: 13px;
+}
+#fahrzeugbeschriftung-en  .de-link:hover,
+#fahrzeugbeschriftung-en  .de-link:focus {
+    color: #67472F;
+}
+#fahrzeugbeschriftung-en #kopfbereich h1 a {
+    text-decoration: none;
+    font-size: 100%;
+    color: #EDD5C3;
+    font-weight: 200;
+    text-align: left;
+    margin: 100px 0 0 0px;
+}
+#fahrzeugbeschriftung-en #kopfbereich2 {
+    display: flex;
+}
+#fahrzeugbeschriftung-en .abschnitt {
+	margin-top: 200px;
+}
+#fahrzeugbeschriftung-en p {
+	margin: 50px 0px 0px 67%;
+	text-align: justify;
+}
+#fahrzeugbeschriftung-en .abschnittpik {
+	padding-bottom: 50px;
+	margin-top: 150px;
+}
+#fahrzeugbeschriftung-en .abschnitt h3 {
+	margin-bottom: 10px;
+}
+#fahrzeugbeschriftung-en .abschnittpik img.pik {
+	width: 30.4%;
+	margin: 15px 15px;
+}
+#fahrzeugbeschriftung-en p {
+	margin: 50px 0px 0px 50%;
+	text-align: justify;
+}
+#fahrzeugbeschriftung-en .abschnittfahr {
+	padding-bottom: 50px;
+}
+#fahrzeugbeschriftung-en .abschnitt h3 {
+	margin-bottom: 10px;
+}
+#fahrzeugbeschriftung-en .abschnittfahr img.fahrzeug {
+	width: 100%;
+}
+#fahrzeugbeschriftung-en .abschnitt img.fahrzeug1 {
+	width: 67.9%;
+	margin: 4px 4px 25px;
+}
+#fahrzeugbeschriftung-en .abschnitt img.fahrzeug2 {
+	width: 29.9%;
+	margin: 4px 4px 25px;
+}
+#fahrzeugbeschriftung-en .abschnitt img.fahrzeug-umsetzung1 {
+	width: 62.3%;
+	margin: 4px 4px 150px 4px;
+}
+#fahrzeugbeschriftung-en .abschnitt img.fahrzeug-umsetzung2 {
+	width: 35.5%;
+	margin: 4px 4px 150px 4px;
+}
+/*FAHRZEUG*/
+
+/*HOLZKISTE*/
+#holzkiste-en  .de-link {
+	text-decoration: none;
+	font-size: 13px;
+    color: #EDD5C3;
+}
+#holzkiste-en  .en-link {
+	font-size: 13px;
+}
+#holzkiste-en  .de-link:hover,
+#holzkiste-en  .de-link:focus {
+    color: #67472F;
+}
+#holzkiste-en .abschnitt {
+	padding: 10px 0;
+	margin-top: 200px;
+}
+#holzkiste-en .abschnitt2 {
+	padding: 10px 0;
+	margin-top: 100px;
+	margin-bottom: 250px;
+}
+#holzkiste-en .gross {
+	width: 100%;
+	margin-top: 10px;
+}
+/*HOLZKISTE*/
+/*ANGABEN ENGLISCH*/
+
+
+
+/*CSS-ANGABEN FÜR ZWISCHENGRÖSSE*/
+
+@media (max-width: 860px) {
+	#uebermich .abschnitt.motivation {
+		position: relative;
+		min-height: 300px;
+	}
+}
+
+/*CSS-ANGABEN FÜR SMARTPHONE*/
+@media only screen
+and (max-device-width: 520px)
+and (orientation: portrait)  {
+	ul.navigation {
+		height: auto;
+	}
+	ul.navigation li {
+		clear: both;
+		text-align: right;
+		width: 100%;
+		padding: 10px 0;
+	}
+	/*STARTSEITE*/
+	#startseite #inhaltsbereich ul.navigation {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	#startseite #inhaltsbereich ul.navigation li,
+	#startseite #inhaltsbereich ul.navigation li:first-child,
+	#startseite #inhaltsbereich ul.navigation li:last-child 	{
+		text-align: center;
+	}
+	/*STARTSEITE*/
+	
+	/*ÜBER MICH*/
+	#uebermich .abschnitt.motivation .strukturbox.rechts {
+		position: relative;
+		top: auto;
+		left: auto;
+	}
+	#uebermich .abschnitt.faehigkeiten .strukturbox {
+		clear: both;
+		width: 100%;
+	}
+	#uebermich #zeitstrahl {
+		margin-left: 10px;
+	}
+	#uebermich #zeitstrahl dl {
+		margin-left: -10px;
+	}
+	#uebermich #zeitstrahl dl .schule,
+	#uebermich #zeitstrahl dl .arbeit {
+		text-align: left;
+		padding: 0 0 0 20px;
+		background-position: left top;
+	}
+	#uebermich #zeitstrahl dl > div.weiteroben {
+		margin-top: 0;
+	}
+	.continued h3 {
+		text-align: left;
+	}
+	
+.overlay {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Schwarze Überlagerung mit Transparenz */
+}
+
+.popup-content {
+    background-color: #000000; /* Hintergrundfarbe des Popups */
+    color: #ffffff; /* Textfarbe des Popups */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button {
+    background-color: #ffffff; /* Hintergrundfarbe des Buttons */
+    color: #000000; /* Textfarbe des Buttons */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+	/*ÜBER MICH*/
+}
+/*CSS-ANGABEN FÜR SMARTPHONE*/
