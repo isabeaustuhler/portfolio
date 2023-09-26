@@ -874,6 +874,26 @@ ul.dokumentation li a:focus {
     margin-left: 9px; /* Kleiner Abstand zwischen den Namen */
 	margin-right: 10px;
 }
+		
+#flower .bdc {
+    display: flex;
+    justify-content: center; /* Horizontal zentrieren */
+    align-items: center; /* Vertikal zentrieren */
+	margin-top: 100px;
+	margin-bottom: -50px;
+}
+#flower .bdc img.example-image {
+    width: 30%;
+    height: auto;
+    transition: transform 0.3s;
+    margin: 0;
+	align-items: center;
+}
+#flower a:hover img.example-image,
+#flower a:focus img.example-image {
+    transform: scale(1.04); /* Bild beim Hover/Focus vergrößern */
+    transition: transform 0.3s;
+}
 #flower .abschnitt.pr {
     display: flex;
     flex-direction: column;
@@ -2172,6 +2192,26 @@ ul.dokumentation li a:focus {
     text-align: left; /* Links ausrichten */
     margin-left: 9px; /* Kleiner Abstand zwischen den Namen */
 	margin-right: 10px;
+}
+		
+#flower-en .bdc {
+    display: flex;
+    justify-content: center; /* Horizontal zentrieren */
+    align-items: center; /* Vertikal zentrieren */
+	margin-top: 100px;
+	margin-bottom: -50px;
+}
+#flower-en .bdc img.example-image {
+    width: 30%;
+    height: auto;
+    transition: transform 0.3s;
+    margin: 0;
+	align-items: center;
+}
+#flower-en a:hover img.example-image,
+#flower-en a:focus img.example-image {
+    transform: scale(1.04); /* Bild beim Hover/Focus vergrößern */
+    transition: transform 0.3s;
 }
 #flower-en .abschnitt.pr {
     display: flex;
